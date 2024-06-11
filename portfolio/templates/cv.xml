@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="cv_style.xslt"?>
+<!DOCTYPE cv SYSTEM "structure.dtd">
+<cv>
+  <informations_personnelles>
+    <nom>Dupont</nom>
+    <prenom>Jean</prenom>
+    <date_de_naissance>01/01/1990</date_de_naissance>
+    <adresse>
+      <rue>123 rue de la République</rue>
+      <ville>Paris</ville>
+      <code_postal>75001</code_postal>
+      <pays>France</pays>
+    </adresse>
+    <contact>
+      <telephone>0123456789</telephone>
+      <email>jean.dupont@example.com</email>
+    </contact>
+  </informations_personnelles>
+  <experience_professionnelle>
+    <emploi>
+      <titre>Ingénieur logiciel</titre>
+      <entreprise>TechnoWeb</entreprise>
+      <ville>Paris</ville>
+      <pays>France</pays>
+      <date_debut>01/01/2015</date_debut>
+      <date_fin>31/12/2019</date_fin>
+      <description>Développement et maintenance de solutions logicielles.</description>
+    </emploi>
+    <emploi>
+      <titre>Développeur web</titre>
+      <entreprise>WebSolutions</entreprise>
+      <ville>Lyon</ville>
+      <pays>France</pays>
+      <date_debut>01/02/2013</date_debut>
+      <date_fin>31/12/2014</date_fin>
+      <description>Conception et réalisation de sites web.</description>
+    </emploi>
+  </experience_professionnelle>
+  <formation>
+    <diplome>
+      <niveau>Master</niveau>
+      <specialite>Informatique</specialite>
+      <institution>Université de Technologie</institution>
+      <ville>Paris</ville>
+      <pays>France</pays>
+      <date_obtention>2012</date_obtention>
+    </diplome>
+  </formation>
+  <competences>
+    <technique>
+      <competence>Java</competence>
+      <competence>Python</competence>
+      <competence>HTML/CSS</competence>
+      <competence>JavaScript</competence>
+    </technique>
+    <linguistique>
+      <langue>Français</langue>
+      <niveau>C2</niveau>
+      <langue>Anglais</langue>
+      <niveau>B2</niveau>
+    </linguistique>
+  </competences>
+  <interets>
+    <interet>Programmation</interet>
+    <interet>Voyage</interet>
+    <interet>Lecture</interet>
+  </interets>
+</cv>

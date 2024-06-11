@@ -9,24 +9,7 @@ from lxml import etree
 def home(request):
     return render(request, 'home.html')
 
-
-# def my_xml_view(request):
-#     items = Item.objects.all()
-#     return render(request, 'my_template.xml', {'items': items}, content_type='application/xml')
-
-
 def render_xml(request):
-    # Chemin vers votre fichier XML
-    xml_file_path = os.path.join(settings.BASE_DIR, 'portfolio/templates/cv.xml')
-    
-    with open(xml_file_path, 'r') as xml_file:
-        xml_content = xml_file.read()
-    
-    # Renvoie le contenu XML avec le type MIME approprié
-    return HttpResponse(xml_content, content_type='application/xml')
-
-
-def render_styled_cv(request):
     # Chemin vers vos fichiers
     xml_file_path = os.path.join('portfolio/templates/cv.xml')
     xslt_file_path = os.path.join('portfolio/templates/cv_style.xslt')
@@ -39,5 +22,9 @@ def render_styled_cv(request):
     transform = etree.XSLT(xslt)
     html_doc = transform(xml)
 
+    
+    # Préparer le document HTML avec le DOCTYPE et l'attribut lang
+    html_output = f'<!DOCTYPE html>\n<html lang="fr">{html_doc}</html>'
+
     # Renvoyer le résultat transformé
-    return HttpResponse(str(html_doc), content_type='text/html')    
+    return HttpResponse(html_output, content_type='text/html')

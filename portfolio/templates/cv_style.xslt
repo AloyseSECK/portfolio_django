@@ -4,7 +4,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="html" encoding="UTF-8" indent="yes"/>
 
 <xsl:template match="/">
-  <html>
+  <html lang="fr">
     <head>
       <title>CV de <xsl:value-of select="cv/informations_personnelles/prenom"/> <xsl:value-of select="cv/informations_personnelles/nom"/></title>
     </head>

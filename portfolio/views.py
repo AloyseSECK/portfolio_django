@@ -21,7 +21,6 @@ def render_xml(request):
     # Transformer le XML avec le XSLT
     transform = etree.XSLT(xslt)
     html_doc = transform(xml)
-
     
     # Préparer le document HTML avec le DOCTYPE et l'attribut lang
     html_output = f'<!DOCTYPE html>\n{html_doc}'

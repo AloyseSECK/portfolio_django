@@ -24,7 +24,7 @@ def render_xml(request):
 
     
     # Préparer le document HTML avec le DOCTYPE et l'attribut lang
-    html_output = f'<!DOCTYPE html>\n<html lang="fr">{html_doc}</html>'
+    html_output = f'<!DOCTYPE html>\n{html_doc}'
 
     # Renvoyer le résultat transformé
     return HttpResponse(html_output, content_type='text/html')

@@ -3,9 +3,9 @@
 <!DOCTYPE cv SYSTEM "structure.dtd">
 <cv>
   <informations_personnelles>
-    <nom>Dupont</nom>
-    <prenom>Jean</prenom>
-    <date_de_naissance>01/01/1990</date_de_naissance>
+    <nom>SECK</nom>
+    <prenom>Aloyse</prenom>
+    <date_de_naissance>12/11/2000</date_de_naissance>
     <adresse>
       <rue>123 rue de la République</rue>
       <ville>Paris</ville>
@@ -13,8 +13,8 @@
       <pays>France</pays>
     </adresse>
     <contact>
-      <telephone>0123456789</telephone>
-      <email>jean.dupont@example.com</email>
+      <telephone>0601410798</telephone>
+      <email>aloyse.seck@edu.univ-paris13.fr</email>
     </contact>
   </informations_personnelles>
   <experience_professionnelle>
@@ -63,7 +63,7 @@
   </competences>
   <interets>
     <interet>Programmation</interet>
+    <interet>Basketball</interet>
     <interet>Voyage</interet>
-    <interet>Lecture</interet>
   </interets>
 </cv>

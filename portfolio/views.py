@@ -29,14 +29,14 @@ def render_html(request):
     # Renvoyer le résultat transformé
     return HttpResponse(html_output, content_type='text/html')
 
-def render_xml(request):
-    # Chemin vers vos fichiers
-    xml_file_path = os.path.join('portfolio/templates/cv.xml')
+# def render_xml(request):
+#     # Chemin vers vos fichiers
+#     xml_file_path = os.path.join('portfolio/templates/cv.xml')
 
-    # Charger le XML
-    # xml = etree.parse(xml_file_path)
-    with open(xml_file_path, 'rb') as f:
-        xml_content = f.read()
+#     # Charger le XML
+#     # xml = etree.parse(xml_file_path)
+#     with open(xml_file_path, 'rb') as f:
+#         xml_content = f.read()
 
-    # Renvoyer le XML
-    return HttpResponse(xml_content, content_type='text/xml')
+#     # Renvoyer le XML
+#     return HttpResponse(xml_content, content_type='text/xml')

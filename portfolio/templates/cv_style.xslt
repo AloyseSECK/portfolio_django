@@ -7,7 +7,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <html lang="fr">
     <head>
         <title>CV de <xsl:value-of select="cv/informations_personnelles/prenom"/><xsl:text> </xsl:text><xsl:value-of select="cv/informations_personnelles/nom"/></title>
-        <link rel="stylesheet" type="text/css" href="styles.css"/>
+        <link rel="stylesheet" type="text/css" href="cv_style.css"/>
     </head>
     <body>
       <h1>CV de <xsl:value-of select="cv/informations_personnelles/prenom"/> <xsl:value-of select="cv/informations_personnelles/nom"/></h1>

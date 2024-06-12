@@ -8,9 +8,7 @@ from lxml import etree
 
 def home(request):
     return render(request, 'home.html')
-
-def home2(request):
-    return render(request, 'home2.html')    
+ 
 
 def render_xml(request):
     # Chemin vers vos fichiers

@@ -34,7 +34,9 @@ def render_xml(request):
     xml_file_path = os.path.join('portfolio/templates/cv.xml')
 
     # Charger le XML
-    xml = etree.parse(xml_file_path)
+    # xml = etree.parse(xml_file_path)
+    with open(xml_file_path, 'rb') as f:
+        xml_content = f.read()
 
     # Renvoyer le XML
-    return HttpResponse(etree.tostring(xml, pretty_print=True), content_type='text/xml')
+    return HttpResponse(xml_content, content_type='text/xml')

@@ -13,7 +13,7 @@ def home(request):
 def render_html(request):
     # Chemin vers vos fichiers
     xml_file_path = os.path.join('portfolio/templates/cv.xml')
-    xslt_file_path = os.path.join('portfolio/templates/cv_style.xslt')
+    xslt_file_path = os.path.join('portfolio/static/portfolio/xslt/cv_style.xslt')
 
     # Charger le XML et le XSLT
     xml = etree.parse(xml_file_path)

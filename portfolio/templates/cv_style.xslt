@@ -10,6 +10,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <link rel="stylesheet" type="text/css" href="cv_style.css"/>
     </head>
     <body>
+      <xsl:copy-of select="document('header.html')/*"/>
       <h1>CV de <xsl:value-of select="cv/informations_personnelles/prenom"/> <xsl:value-of select="cv/informations_personnelles/nom"/></h1>
       <h2>Informations Personnelles</h2>
       <p class="email">Email: <xsl:value-of select="cv/informations_personnelles/contact/email"/></p>

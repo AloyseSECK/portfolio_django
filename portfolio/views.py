@@ -10,7 +10,7 @@ def home(request):
     return render(request, 'home.html')
  
 
-def render_xml(request):
+def render_html(request):
     # Chemin vers vos fichiers
     xml_file_path = os.path.join('portfolio/templates/cv.xml')
     xslt_file_path = os.path.join('portfolio/templates/cv_style.xslt')
@@ -28,3 +28,13 @@ def render_xml(request):
 
     # Renvoyer le résultat transformé
     return HttpResponse(html_output, content_type='text/html')
+
+def render_xml(request):
+    # Chemin vers vos fichiers
+    xml_file_path = os.path.join('portfolio/templates/cv.xml')
+
+    # Charger le XML
+    xml = etree.parse(xml_file_path)
+
+    # Renvoyer le XML
+    return HttpResponse(etree.tostring(xml, pretty_print=True), content_type='text/xml')

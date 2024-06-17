@@ -22,32 +22,32 @@
                     <h1>
                         <xsl:value-of select="resume/personalInfo/name" />
                     </h1>
-                    <h3>
+                    <h2>
                         <xsl:value-of select="resume/personalInfo/title" />
-                    </h3>
+                    </h2>
                     <div class="section">
-                        <span class="contact-info">
-                            Phone:
+                        <span>
+                            <b>Phone:</b>
                             <xsl:value-of select="resume/personalInfo/contact/phone" />
                         </span>
                         <br />
-                        <span class="contact-info">
-                            Email:
+                        <span>
+                            <b>Email:</b>
                             <xsl:value-of select="resume/personalInfo/contact/email" />
                         </span>
                         <br />
-                        <span class="contact-info">
-                            Location:
+                        <span>
+                            <b>Location:</b>
                             <xsl:value-of select="resume/personalInfo/contact/location" />
                         </span>
                         <br />
-                        <span class="contact-info">
-                            Availability:
+                        <span>
+                            <b>Availability:</b>
                             <xsl:value-of select="resume/personalInfo/availability" />
                         </span>
                         <br />
-                        <span class="contact-info">
-                            Age:
+                        <span>
+                            <b>Age:</b>
                             <xsl:value-of select="resume/personalInfo/age" />
                         </span>
                         <br />
@@ -64,24 +64,24 @@
                         <div class="section-title">Projects</div>
                         <xsl:for-each select="resume/projects/project">
                             <div class="project">
-                                <div class="project-title">
-                                    Title:
+                                <div>
+                                    <b>Title:</b>
                                     <xsl:value-of select="title" />
                                 </div>
-                                <div class="project-institution">
-                                    Institution:
+                                <div>
+                                    <b>Institution:</b>
                                     <xsl:value-of select="institution" />
                                 </div>
-                                <div class="project-date">
-                                    Date:
+                                <div>
+                                    <b>Date:</b>
                                     <xsl:value-of select="date" />
                                 </div>
-                                <div class="project-description">
-                                    Description:
+                                <div>
+                                    <b>Description:</b>
                                     <xsl:value-of select="description" />
                                 </div>
-                                <div class="project-tools">
-                                    Tools:
+                                <div>
+                                    <b>Tools:</b>
                                     <xsl:value-of select="tools" />
                                 </div>
                             </div>
@@ -91,16 +91,16 @@
                         <div class="section-title">Education</div>
                         <xsl:for-each select="resume/education/degree">
                             <div class="degree">
-                                <div class="degree-title">
-                                    Degree:
+                                <div>
+                                    <b>Degree:</b>
                                     <xsl:value-of select="title" />
                                 </div>
-                                <div class="degree-institution">
-                                    Institution:
+                                <div>
+                                    <b>Institution:</b>
                                     <xsl:value-of select="institution" />
                                 </div>
-                                <div class="degree-date">
-                                    Date:
+                                <div>
+                                    <b>Date:</b>
                                     <xsl:value-of select="date" />
                                 </div>
                             </div>
@@ -110,12 +110,12 @@
                         <div class="section-title">Languages</div>
                         <xsl:for-each select="resume/languages/language">
                             <div class="language">
-                                <div class="language-name">
-                                    Language:
+                                <div>
+                                    <b>Language:</b>
                                     <xsl:value-of select="name" />
                                 </div>
-                                <div class="language-level">
-                                    Level:
+                                <div>
+                                    <b>Level:</b>
                                     <xsl:value-of select="level" />
                                 </div>
                             </div>
@@ -125,8 +125,8 @@
                         <div class="section-title">Skills</div>
                         <xsl:for-each select="resume/skills/category">
                             <div class="skill-category">
-                                <div class="category-name">
-                                    <xsl:value-of select="@name" />:
+                                <div>
+                                    <b><xsl:value-of select="@name" />:</b>
                                 </div>
                                 <xsl:for-each select="skill">
                                     <div class="skill">

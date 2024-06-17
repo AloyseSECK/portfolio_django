@@ -89,13 +89,17 @@ main.homepage {
 }
 
 #cadre-image {
-
     height: 500px;
     width: 500px;
     border-radius: 50%;
     background-image: url('../img/photo.jpg');
     background-size: cover;
     background-position-y: 30%;
+}
+
+.col-md-6 {
+	flex: 0 0 50%;
+	max-width: 50%;
 }
 
 @media (max-width: 1200px) {
@@ -143,3 +147,47 @@ main.homepage {
     transform: scale(1.1);
 }
 
+
+/* -----------------------------BUTTON STYLE------------------------------- */
+button {
+    height: 50px;
+    margin: 5px;
+    width: 120px;
+    background: #ffffff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    cursor: pointer;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #404c5d 1px;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 5px;
+    background: linear-gradient(145deg, #5b5959, #ffffff);
+    -webkit-box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+      inset 5px 5px 10px #a4a4a4, inset -5px -5px 10px #fff9f9;
+    box-shadow: -1px -5px 15px #41465b, 5px 5px 15px #41465b,
+      inset 5px 5px 10px #ffffff, inset -5px -5px 10px #cacaca;
+  }
+  
+  button:hover {
+    -webkit-box-shadow: 1px 1px 13px #fcfcfc, -1px -1px 13px #545b78;
+    box-shadow: 1px 1px 13px #ededef, -1px -1px 13px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+  }
+  
+  button:active {
+    -webkit-box-shadow: 1px 1px 13px #ffffff, -1px -1px 33px #545b78;
+    box-shadow: 1px 1px 13px #ffffff, -1px -1px 33px #545b78;
+    color: #d6d6d6;
+    -webkit-transition: 100ms;
+    transition: 100ms;
+  }  
+/* ------------------------------------------------------------ */

@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.project,
+.degree,
+.language,
+.skill-category,
+.attribute,
+.interest {
+    margin-left: 20px;
+}
+
+main.CV {
+    background-color: #f8f9fa;
+}

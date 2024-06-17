@@ -13,9 +13,6 @@
           href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous" />
-        <link
-          href="https:/>/cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"
-          rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css2?family=Castoro:wght@400;700&amp;display=swap"
           rel="stylesheet" />
       </head>

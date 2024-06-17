@@ -1,3 +1,7 @@
 main.CV {
     background-color: #f8f9fa;
 }
+
+.dropdown-toggle{
+    background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png");
+}

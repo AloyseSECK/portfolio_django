@@ -20,14 +20,16 @@
 }
 
 #little-circle {
-    width: 45px;
-    height: 45px;
+    width: 25px;
+    height: 25px;
     color: orange;
 }
 
 .header-links {
     font-family: 'Castoro';
     font-size: large;
+    display: flex;
+    align-items: center;
 }
 
 .header-links a {
@@ -46,6 +48,11 @@
     border-left: solid 2px ;
     border-right: solid 2px;
 }
+
+#contact-link{
+    border-right: solid 2px;
+}
+
 
 body, html {
     height: 100%;
@@ -104,13 +111,6 @@ main.homepage {
     }
 }
 
-/* #circle4 {
-    position: fixed;
-    top: 10%;
-    left: 10%;
-    color: rgb(228, 227, 227);
-    font-size: 10rem;
-} */
 
 #circle1 {
     background-color: orange;
@@ -142,3 +142,4 @@ main.homepage {
 .circle:hover {
     transform: scale(1.1);
 }
+

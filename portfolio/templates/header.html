@@ -3,7 +3,8 @@
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid">
             <div class="header-brand">
-                <svg xmlns="http://www.w3.org/2000/svg" id="header-circle" class="bi bi-circle-fill" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" id="header-circle" class="bi bi-circle-fill"
+                    viewBox="0 0 16 16">
                     <circle cx="8" cy="8" r="8" />
                 </svg>
                 <a class="navbar-brand">Aloyse SECK</a>
@@ -17,8 +18,19 @@
                         <div id="cv-link" class="col">
                             <a href="/cv/">CV</a>
                         </div>
-                        <div class="col">
+                        <div id="contact-link" class="col">
                             <a href="#">Contact</a>
+                        </div>
+                        <div class="col dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                FR 🇫🇷
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" onclick="updateButtonText(this)" href="#">FR 🇫🇷</a>
+                                <a class="dropdown-item" onclick="updateButtonText(this)" href="#">EN 🇬🇧</a>
+                                <a class="dropdown-item" onclick="updateButtonText(this)" href="#">РФ 🇷🇺</a>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -96,7 +96,7 @@
             <skill>UML</skill>
             <skill>XML</skill>
         </category>
-        <category name="OUTILS & LOGICIELS">
+        <category name="OUTILS &amp; LOGICIELS">
             <skill>Anaconda</skill>
             <skill>PyCharm</skill>
             <skill>Visual Studio Code</skill>

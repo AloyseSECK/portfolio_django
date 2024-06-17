@@ -9,9 +9,9 @@
             select="cv/informations_personnelles/nom" /></title>
         <link rel="stylesheet" type="text/css" href="/static/portfolio/css/cv_style.css" />
         <link rel="stylesheet" type="text/css" href="/static/portfolio/css/home_style.css" />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-          rel="stylesheet"
-          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous" />
         <link
           href="https:/>/cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css"

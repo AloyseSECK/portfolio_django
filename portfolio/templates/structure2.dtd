@@ -1,0 +1,33 @@
+<!ELEMENT resume (personalInfo, objective, projects, education, languages, skills, attributes, interests, links)>
+<!ELEMENT personalInfo (name, title, contact, availability, age)>
+<!ELEMENT contact (phone, email, location)>
+<!ELEMENT objective (#PCDATA | duration)*>
+<!ELEMENT projects (project+)>
+<!ELEMENT project (title, institution, date, description, tools)>
+<!ELEMENT education (degree+)>
+<!ELEMENT degree (title, institution, date)>
+<!ELEMENT languages (language+)>
+<!ELEMENT language (name, level)>
+<!ELEMENT skills (category+)>
+<!ELEMENT category (skill+)>
+<!ATTLIST category name CDATA #REQUIRED>
+<!ELEMENT skill (#PCDATA)>
+<!ELEMENT attributes (attribute+)>
+<!ELEMENT attribute (#PCDATA)>
+<!ELEMENT interests (interest+)>
+<!ELEMENT interest (#PCDATA)>
+<!ELEMENT links (link+)>
+<!ELEMENT link (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT availability (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT institution (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT tools (#PCDATA)>
+<!ELEMENT duration (#PCDATA)>
+<!ELEMENT level (#PCDATA)>

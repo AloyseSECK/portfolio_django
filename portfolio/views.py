@@ -28,6 +28,26 @@ def render_html(request):
 
     # Renvoyer le résultat transformé
     return HttpResponse(html_output, content_type='text/html')
+    
+def render_html2(request):
+    # Chemin vers vos fichiers
+    xml_file_path = os.path.join('portfolio/templates/cv2.xml')
+    xslt_file_path = os.path.join('portfolio/static/portfolio/xslt/cv_style2.xslt')
+
+    # Charger le XML et le XSLT
+    xml = etree.parse(xml_file_path)
+    xslt = etree.parse(xslt_file_path)
+
+    # Transformer le XML avec le XSLT
+    transform = etree.XSLT(xslt)
+    html_doc = transform(xml)
+    
+    # Préparer le document HTML avec le DOCTYPE et l'attribut lang
+    html_output = f'<!DOCTYPE html>\n{html_doc}'
+
+    # Renvoyer le résultat transformé
+    return HttpResponse(html_output, content_type='text/html')
+
 
 # def render_xml(request):
 #     # Chemin vers vos fichiers

@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="{% static 'portfolio/xslt/cv_style2.xslt' %}"?>
+<!DOCTYPE resume SYSTEM "structure2.dtd">
 <resume>
     <personalInfo>
         <name>SECK Aloyse Maliam</name>

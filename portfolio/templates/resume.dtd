@@ -1,0 +1,49 @@
+<!ELEMENT resume (personalInfo, objective, projects, education, languages, technicalSkills, interests)>
+<!ELEMENT page (lang, title)>
+<!ELEMENT lang (#PCDATA)>
+<!ELEMENT title (en, fr, ru)>
+<!ELEMENT en (#PCDATA)>
+<!ELEMENT fr (#PCDATA)>
+<!ELEMENT ru (#PCDATA)>
+
+<!ELEMENT contact (phone, email, location)>
+<!ELEMENT availability (en, fr, ru)>
+
+<!ELEMENT duration (en, fr, ru)>
+<!ELEMENT objective (en, fr, ru, duration)>
+
+<!ELEMENT personalInfo (fullname, title, contact, availability, age)>
+<!ELEMENT fullname (en, fr, ru)>
+<!ELEMENT age (en,fr,ru)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT address (en, fr, ru)>
+
+
+
+<!ELEMENT institution (en, fr, ru)>
+
+<!ELEMENT location (en, fr, ru)>
+
+
+<!ELEMENT projects (project+)>
+<!ELEMENT project (title, institution, date, description, tools)>
+<!ELEMENT description (en, fr, ru)>
+<!ELEMENT tools (#PCDATA)>
+
+<!ELEMENT education (degree+)>
+<!ELEMENT degree (title, institution, date)>
+
+<!ELEMENT languages (language+)>
+<!ELEMENT language (name, level)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT level (en, fr, ru)>
+
+
+<!ELEMENT technicalSkills (skill+)>
+<!ELEMENT skill (title, description)>
+
+<!ELEMENT interests (interest+)>
+<!ELEMENT interest (en, fr, ru)>
+
+<!ELEMENT date (en, fr, ru)>

@@ -28,3 +28,22 @@ def render_html(request):
     # Renvoyer le résultat transformé
     return HttpResponse(html_output, content_type='text/html')
 
+def render_resume(request):
+    lang = request.GET.get('lang', 'en')  # Récupérer le paramètre de langue avec 'en' par défaut
+
+    # Charger le fichier XML
+    xml_file_path = os.path.join('portfolio/templates/translated_cv.xml')
+    xml_doc = etree.parse(xml_file_path)
+
+    # Charger le fichier XSLT
+    xslt_file_path = os.path.join('portfolio/static/portfolio/xslt/cv_style.xslt')
+    xslt_doc = etree.parse(xslt_file_path)
+    
+    # Appliquer la transformation XSLT
+    transform = etree.XSLT(xslt_doc)
+    result_tree = transform(xml_doc, lang=etree.XSLT.strparam(lang))
+
+    # Convertir le résultat en chaîne de caractères
+    result_str = etree.tostring(result_tree, pretty_print=True, encoding='UTF-8', method="html")
+
+    return HttpResponse(result_str, content_type='text/html')

@@ -3,7 +3,7 @@
 <!ELEMENT contact (phone, email, location)>
 <!ELEMENT objective (#PCDATA | duration)*>
 <!ELEMENT projects (project+)>
-<!ELEMENT project (title, institution, date, description, tools)>
+<!ELEMENT project (title, institution, date?, description, tools)>
 <!ELEMENT education (degree+)>
 <!ELEMENT degree (title, institution, date)>
 <!ELEMENT languages (language+)>

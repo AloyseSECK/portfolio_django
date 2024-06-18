@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="{% static 'portfolio/xslt/cv_style2.xslt' %}"?>
+<!DOCTYPE resume SYSTEM "resume.dtd">
+<resume>
+    <personalInfo>
+        <fullname>
+            <en>SECK Aloyse Maliam</en>
+            <fr>SECK Aloyse Maliam</fr>
+            <ru>СЕК Алоиз Малиам</ru>
+        </fullname>
+        <title>
+            <en>COMPUTER ENGINEER INTERN</en>
+            <fr>INGENIEUR INFORMATIQUE EN ALTERNANCE</fr>
+            <ru>ИНЖЕНЕР-КОМПЬЮТЕРЩИК СТАЖЕР</ru>
+        </title>
+        <contact>
+            <phone>06 01 41 07 98</phone>
+            <email>aloysemaliamseck@gmail.com</email>
+            <location>
+                <en>95330 DOMONT</en>
+                <fr>95330 DOMONT</fr>
+                <ru>95330 ДОМОНТ</ru>
+            </location>
+        </contact>
+        <availability>
+            <en>Availability: From September 2023</en>
+            <fr>Disponiblité : Dès septembre 2023</fr>
+            <ru>Доступность: с сентября 2023 года</ru>
+        </availability>
+        <age>
+            <en>22 years old</en>
+            <fr>22 ans</fr>
+            <ru>22 года</ru>
+        </age>
+    </personalInfo>
+    <objective>
+        <en>Looking for a 24-month apprenticeship contract</en>
+        <fr>A la recherche d'un contrat d'apprentissage de 24 mois</fr>
+        <ru>В поисках 24-месячного контракта на обучение</ru>
+        <duration>
+            <en>Rhythm: One month on two in the company</en>
+            <fr>Rythme : Un mois sur deux en entreprise</fr>
+            <ru>Ритм: Один месяц через два в компании</ru>
+        </duration>
+    </objective>
+    <projects>
+        <project>
+            <title>
+                <en>WEB DEVELOPMENT - E-COMMERCE SITE</en>
+                <fr>DÉVELOPPEMENT WEB - SITE E-COMMERCE</fr>
+                <ru>РАЗРАБОТКА ВЕБ-САЙТА - ЭЛЕКТРОННАЯ КОММЕРЦИЯ</ru>
+            </title>
+            <institution>
+                <en>Sup Galilée Engineering School</en>
+                <fr>Ecole d'Ingénieur Sup Galilée</fr>
+                <ru>Инженерная школа Sup Galilée</ru>
+            </institution>
+            <date>
+                <en>April 2022 / June 2022</en>
+                <fr>Avril 2022 / Juin 2022</fr>
+                <ru>Апрель 2022 / Июнь 2022</ru>
+            </date>
+            <description>
+                <en>Developed in a team of 5 students at the academic level - Developed in PHP - Java Script - Html and CSS</en>
+                <fr>Réalisé en équipe de 5 étudiants au niveau académique - Développé en PHP - Java Script - Html et CSS</fr>
+                <ru>Разработано командой из 5 студентов на академическом уровне - Разработано на PHP - Java Script - Html и CSS</ru>
+            </description>
+            <tools>Wamp/PHPmyadmin - SQL</tools>
+        </project>
+        <project>
+            <title>
+                <en>TRANSPORT MONITORING - GPS</en>
+                <fr>SUIVI DE TRANSPORT - GPS</fr>
+                <ru>МОНИТОРИНГ ТРАНСПОРТА - GPS</ru>
+            </title>
+            <institution>
+                <en>Preparatory Classes Maristes-Senegal</en>
+                <fr>Classes préparatoires Maristes-Sénégal</fr>
+                <ru>Подготовительные классы маристов-Сенегал</ru>
+            </institution>
+            <date>
+                <en>January 2021 / June 2021</en>
+                <fr>Janvier 2021 / Juin 2021</fr>
+                <ru>Январь 2021 / Июнь 2021</ru>
+            </date>
+            <description>
+                <en>Implementation of a university bus tracking system via GPS - Developed in Python</en>
+                <fr>Réalisation d'un système de suivi des bus de l'université via GPS - Développé en python</fr>
+                <ru>Реализация системы отслеживания университетских автобусов через GPS - Разработано на Python</ru>
+            </description>
+            <tools>Python3 - SQL alchemy - Flask - Requests - Raspberry Pi</tools>
+        </project>
+        <project>
+            <title>
+                <en>LEARNING MACHINE : MENACE</en>
+                <fr>APPRENTISSAGE AUTOMATIQUE : MENACE</fr>
+                <ru>ОБУЧАЮЩАЯ МАШИНА : МЕНЕЙС</ru>
+            </title>
+            <institution>
+                <en>Sup Galilée Engineering School</en>
+                <fr>Ecole d'Ingénieur Sup Galilée</fr>
+                <ru>Инженерная школа Sup Galilée</ru>
+            </institution>
+            <date>
+                <en>December 2021 / January 2022</en>
+                <fr>Décembre 2021 / Janvier 2022</fr>
+                <ru>Декабрь 2021 / Январь 2022</ru>
+            </date>
+            <description>
+                <en>AI that learns to play Tic-Tac-Toe - Developed in a team of 3 students at the academic level - Developed in C</en>
+                <fr>IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants au niveau académique - Développé en C</fr>
+                <ru>ИИ, который учится играть в крестики-нолики - Разработано командой из 3 студентов на академическом уровне - Разработано на C</ru>
+            </description>
+            <tools> C </tools>
+        </project>
+        <project>
+            <title>
+                <en>DSP CALCULATOR</en>
+                <fr>CALCULATEUR DSP</fr>
+                <ru>КАЛЬКУЛЯТОР DSP</ru>
+            </title>
+            <institution>
+                <en>Sup Galilée Engineering School</en>
+                <fr>Ecole d'Ingénieur Sup Galilée</fr>
+                <ru>Инженерная школа Sup Galilée</ru>
+            </institution>
+            <date>
+                <en>March 2022</en>
+                <fr>Mars 2022</fr>
+                <ru>Март 2022</ru>
+            </date>
+            <description>
+                <en>Modeling a factory builder type system - Developed in Java</en>
+                <fr>Modélisation d'un système de type factory builder - Développé en Java</fr>
+                <ru>Моделирование системы типа factory builder - Разработано на Java</ru>
+            </description>
+            <tools>Java</tools>
+        </project>
+    </projects>
+    <education>
+        <degree>
+            <title>
+                <en>COMPUTER ENGINEERING DEGREE</en>
+                <fr>DIPLOME D'INGENIEUR INFORMATIQUE</fr>
+                <ru>СТЕПЕНЬ ИНЖЕНЕРА-КОМПЬЮТЕРЩИКА</ru>
+            </title>
+            <institution>
+                <en>Sorbonne Paris North University , Villetaneuse - France</en>
+                <fr>Université Sorbonne Paris Nord, Villetaneuse - France</fr>
+                <ru>Университет Сорбонна Париж Север, Вильтанёз - Франция</ru>
+            </institution>
+            <date>
+                <en>2021 / 2025</en>
+                <fr>2021 / 2025</fr>
+                <ru>2021 / 2025</ru>
+            </date>
+        </degree>
+        <degree>
+            <title>
+                <en>PREPARATORY CLASS</en>
+                <fr>CLASSE PRÉPARATOIRE</fr>
+                <ru>ПОДГОТОВИТЕЛЬНЫЙ КЛАСС</ru>
+            </title>
+            <institution>
+                <en>Marist Post-BAC Institute, Dakar - Senegal</en>
+                <fr>Institut Mariste Post-BAC, Dakar - Sénégal</fr>
+                <ru>Маристский институт Post-BAC, Дакар - Сенегал</ru>
+            </institution>
+            <date>
+                <en>September 2019 / June 2021</en>
+                <fr>Septembre 2019 / Juin 2021</fr>
+                <ru>Сентябрь 2019 / Июнь 2021</ru>
+            </date>
+        </degree>
+        <degree>
+            <title>
+                <en>SCIENTIFIC BACCALAUREATE</en>
+                <fr>BACCALAURÉAT SCIENTIFIQUE</fr>
+                <ru>НАУЧНЫЙ БАКАЛАВРИАТ</ru>
+            </title>
+            <institution>
+                <en>Private School Etienne and Monique, Senegal</en>
+                <fr>Ecole Privée Chez Etienne et Monique, Sénégal</fr>
+                <ru>Частная школа Etienne и Monique, Сенегал</ru>
+            </institution>
+            <date>
+                <en>July 2019</en>
+                <fr>Juillet 2019</fr>
+                <ru>Июль 2019</ru>
+            </date>
+        </degree>
+    </education>
+    <languages>
+        <language>
+            <name>ENGLISH</name>
+            <level>
+                <en>Advanced level</en>
+                <fr>Niveau avancé</fr>
+                <ru>Продвинутый уровень</ru>
+            </level>
+        </language>
+        <language>
+            <name>WOLOF</name>
+            <level>
+                <en>Native language</en>
+                <fr>Langue maternelle</fr>
+                <ru>Родной язык</ru>
+            </level>
+        </language>
+        <language>
+            <name>FRENCH</name>
+            <level>
+                <en>Intermediate level</en>
+                <fr>Niveau intermédiaire</fr>
+                <ru>Средний уровень</ru>
+            </level>
+        </language>
+    </languages>
+    <technicalSkills>
+        <skill>
+            <title>
+                <en>PROGRAMMING LANGUAGES</en>
+                <fr>LANGAGES DE PROGRAMMATION</fr>
+                <ru>ЯЗЫКИ ПРОГРАММИРОВАНИЯ</ru>
+            </title>
+            <description>
+                <en>C, Python, Java, HTML, PHP, CSS, Java Script</en>
+                <fr>C, Python, Java, HTML, PHP, CSS, Java Script</fr>
+                <ru>C, Python, Java, HTML, PHP, CSS, Java Script</ru>
+            </description>
+        </skill>
+        <skill>
+            <title>
+                <en>DATABASES</en>
+                <fr>BASES DE DONNÉES</fr>
+                <ru>БАЗЫ ДАННЫХ</ru>
+            </title>
+            <description>
+                <en>MySQL, PostgreSQL</en>
+                <fr>MySQL, PostgreSQL</fr>
+                <ru>MySQL, PostgreSQL</ru>
+            </description>
+        </skill>
+        <skill>
+            <title>
+                <en>OPERATING SYSTEMS</en>
+                <fr>SYSTÈMES D'EXPLOITATION</fr>
+                <ru>ОПЕРАЦИОННЫЕ СИСТЕМЫ</ru>
+            </title>
+            <description>
+                <en>Windows, Linux</en>
+                <fr>Windows, Linux</fr>
+                <ru>Windows, Linux</ru>
+            </description>
+        </skill>
+    </technicalSkills>
+    <interests>
+        <interest>
+            <en>Music</en>
+            <fr>Musique</fr>
+            <ru>Музыка</ru>
+        </interest>
+        <interest>
+            <en>Reading</en>
+            <fr>Lecture</fr>
+            <ru>Чтение</ru>
+        </interest>
+        <interest>
+            <en>Sports</en>
+            <fr>Sports</fr>
+            <ru>Спорт</ru>
+        </interest>
+    </interests>
+</resume>

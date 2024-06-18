@@ -21,7 +21,7 @@
                         <div id="contact-link" class="col">
                             <a href="#">Contact</a>
                         </div>
-                        <div class="col dropdown">
+                        <div id="header" class="col dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 FR 🇫🇷
@@ -32,6 +32,13 @@
                                 <a class="dropdown-item" onclick="updateButtonText(this)" href="#">РФ 🇷🇺</a>
                             </div>
                         </div>
+                        <script type="text/javascript">
+                            function updateLanguage(lang) {
+                              const urlParams = new URLSearchParams(window.location.search);
+                              urlParams.set('lang', lang);
+                              window.location.search = urlParams.toString();
+                            }
+                        </script>
                     </div>
                 </div>
             </div>

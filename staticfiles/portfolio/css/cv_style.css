@@ -1,7 +1,99 @@
-main.CV {
-    background-color: #f8f9fa;
+body {
+    font-family: 'Castoro', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
-.dropdown-toggle{
-    background-image: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png");
+h1 {
+    font-weight: bold !important;
+    font-family: 'Castoro', serif !important;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+main.CV {
+    position: absolute;
+    top: 80px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 24px;
+    border-bottom: 2px solid  #ca6f1e ;
+    color:  #ca6f1e ;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-info, .project, .degree, .language, .skill, .attribute, .interest, .link {
+    padding: 5px 0;
+}
+
+.project-title, .project-institution, .project-date, .project-description, .project-tools,
+.degree-title, .degree-institution, .degree-date,
+.language-name, .language-level,
+.category-name, .skill {
+    margin: 5px 0;
+}
+
+.link a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.link a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    main.CV {
+        width: 95%;
+        margin: 10px;
+        padding: 10px;
+    }
+}
+
+.skill-category {
+    margin-bottom: 20px;
+}
+
+.category-name {
+    font-weight: bold;
+    display: block; /* Makes the category name appear on its own line */
+}
+
+.skill {
+    display: inline-block; /* Displays skills inline */
+    margin-right: 10px; /* Adds some space between the skills */
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px; /* Optional: adds rounded corners to the skill tags */
+}
+
+.project-title {
+    font-weight: bold;
 }

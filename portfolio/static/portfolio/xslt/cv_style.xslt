@@ -17,7 +17,8 @@
                     rel="stylesheet" />
             </head>
             <body>
-                <xsl:copy-of select="document('../../../templates/header.html')/*" /> <!-- HEADER -->
+                <!-- HEADER -->
+                <!-- <xsl:copy-of select="document('../../../templates/header.html')/*" />  -->
                 <main class="CV">
                     <h1>
                         <xsl:value-of select="resume/personalInfo/name" />

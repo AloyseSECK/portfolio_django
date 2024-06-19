@@ -1,8 +1,9 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.conf import settings
-import os
+from django.utils.translation import gettext as _
 from lxml import etree
+import os
 
 # Create your views here.
 

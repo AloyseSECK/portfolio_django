@@ -2,11 +2,12 @@
 <html lang="fr">
 
 <head>
+    {% load i18n %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
     {% load static %}
+    <title>{% trans "Portfolio" %}</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/home_style.css' %}">
@@ -16,6 +17,12 @@
 <body>
     {% include 'header.html' %}
     <main class="homepage">
+        <!-- Formulaire qui permet de mettre à jour la langue de la page affichée -->
+        <form id="languageForm" action="/i18n/setlang/" method="post">
+            {% csrf_token %}
+            <input name="next" type="hidden" value="{{ request.path }}">
+            <input id="languageInput" name="language" type="hidden">
+        </form>
         <div>
             <div class="container">
                 <div class="row">
@@ -24,20 +31,17 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col">
-                                    <h1 class="display-1">Salut</h1>
+                                    <h1 class="display-1">{% trans "Salut" %}</h1>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <p id="a-propos" class="lead">A propos de moi</p>
+                                    <p id="a-propos" class="lead">{% trans "A propos de moi" %}</p>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col">
-                                    <p class="lead">Je suis étudiant en école d'ingénieur en Informatique. J'aime
-                                        apprendre de nouvelles technologies et résoudre
-                                        des
-                                        problèmes.</p>
+                                    <p class="lead">{% trans "Je suis étudiant en école d'ingénieur en Informatique. J'aime apprendre de nouvelles technologies et résoudre des problèmes." %}</p>
                                 </div>
                             </div>
                             <div class="row">
@@ -45,25 +49,21 @@
                                     <div class="row">
                                         <div class="col text-center">
                                             <a href="/resume/">
-                                                <div id="circle1" class="circle">CV</div>
+                                                <div id="circle1" class="circle">{% trans "CV" %}</div>
                                             </a>
                                         </div>
                                         <div class="col text-center">
                                             <a href="#">
-                                                <div id="circle2" class="circle">Projets</div>
+                                                <div id="circle2" class="circle">{% trans "Projets" %}</div>
                                             </a>
                                         </div>
                                         <div class="col text-center">
                                             <a href="#">
-                                                <div id="circle3" class="circle">Contact</div>
+                                                <div id="circle3" class="circle">{% trans "Contact" %}</div>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" id="little-circle" class="bi bi-circle-fill"
-                                    viewBox="0 0 16 16">
-                                    <circle cx="8" cy="8" r="8" />
-                                </svg>
                             </div>
                         </div>
                     </div>
@@ -71,6 +71,7 @@
             </div>
         </div>
     </main>
+
     {% include 'footer.html' %}
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -85,7 +86,35 @@
         function updateButtonText(element) {
             var button = document.getElementById('dropdownMenuButton');
             button.textContent = element.textContent;
+            // Store the selected language in a cookie
+            document.cookie = "selectedLanguage=" + encodeURIComponent(element.textContent) + "; path=/";
         }
+    
+        function changeLanguage(lang) {
+            document.getElementById('languageInput').value = lang;
+            document.getElementById('languageForm').submit();
+        }
+    
+        // Function to get the value of a cookie
+        function getCookie(name) {
+            let cookieArr = document.cookie.split(";");
+            for (let i = 0; i < cookieArr.length; i++) {
+                let cookiePair = cookieArr[i].split("=");
+                if (name == cookiePair[0].trim()) {
+                    return decodeURIComponent(cookiePair[1]);
+                }
+            }
+            return null;
+        }
+    
+        // On page load, update the button text with the value from the cookie
+        document.addEventListener("DOMContentLoaded", function() {
+            var selectedLanguage = getCookie("selectedLanguage");
+            if (selectedLanguage) {
+                var button = document.getElementById('dropdownMenuButton');
+                button.textContent = selectedLanguage;
+            }
+        });
     </script>
 </body>
 

@@ -3,7 +3,7 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
     <xsl:template match="/">
-        <html>
+        <html lang="fr" id="html-bloc">
             <head>
                 {% load i18n %}    
                 <title>{% trans "Portfolio - Aloyse Maliam SECK" %}</title>
@@ -166,8 +166,11 @@
                     function updateButtonText(element) {
                         var button = document.getElementById('dropdownMenuButton');
                         button.textContent = element.textContent;
+                        var lang = element.getAttribute('data-lang');
+                        document.documentElement.setAttribute('lang', lang);
                         // Store the selected language in a cookie
-                        document.cookie = "selectedLanguage=" + encodeURIComponent(element.textContent) + "; path=/";
+                        document.cookie = "selectedLanguage=" + encodeURIComponent(lang) + "; path=/";
+                        document.cookie = "languageDisplay=" + encodeURIComponent(element.textContent) + "; path=/";
                     }
                 
                     function changeLanguage(lang) {
@@ -192,7 +195,9 @@
                         var selectedLanguage = getCookie("selectedLanguage");
                         if (selectedLanguage) {
                             var button = document.getElementById('dropdownMenuButton');
-                            button.textContent = selectedLanguage;
+                            button.textContent = getCookie("languageDisplay");
+                            console.log(selectedLanguage);
+                            document.documentElement.setAttribute('lang', selectedLanguage);
                         }
                     });
 

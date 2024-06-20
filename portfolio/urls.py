@@ -6,10 +6,8 @@ from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('cv/', views.render_html, name='render_html'),
-    path('resume/', views.render_resume, name='render_resume'),
+    path('cv/', views.render_resume, name='render_resume'),
     path('i18n/', include('django.conf.urls.i18n')),
-    path('resume/i18n/', include('django.conf.urls.i18n')),
 ]
 
 if settings.DEBUG:

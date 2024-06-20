@@ -3,121 +3,121 @@
 <!DOCTYPE resume SYSTEM "structure_cv.dtd">
 <resume>
     <personalInfo>
-        <name>SECK Aloyse Maliam</name>
-        <title>INGENIEUR INFORMATIQUE EN ALTERNANCE</title>
+        <name>{% trans "SECK Aloyse Maliam" %}</name>
+        <title>{% trans "INGENIEUR INFORMATIQUE EN ALTERNANCE" %}</title>
         <contact>
             <phone>06 01 41 07 98</phone>
             <email>aloysemaliamseck@gmail.com</email>
-            <location>95330 DOMONT</location>
+            <location>{% trans "95330 DOMONT" %}</location>
         </contact>
-        <availability>Disponiblité : Dès septembre 2023</availability>
-        <age>22 ans</age>
+        <availability>{% trans "Disponibilité : Dès septembre 2023" %}</availability>
+        <age>{% trans "22 ans" %}</age>
     </personalInfo>
     <objective>
-        A la recherche d'un contrat d'apprentissage de 24 mois
-        <duration>Rythme : Un mois sur deux en entreprise</duration>
+        {% trans "A la recherche d'un contrat d'apprentissage de 24 mois" %}
+        <duration>{% trans "Rythme : Un mois sur deux en entreprise" %}</duration>
     </objective>
     <projects>
         <project>
-            <title>DÉVELOPPEMENT WEB - SITE E-COMMERCE</title>
-            <institution>Ecole d'Ingénieur Sup Galilée</institution>
-            <description>Réalisé en équipe de 5 étudiants au niveau académique - Développé en PHP - Java Script - Html et CSS</description>
-            <tools>Wamp/PHPmyadmin - SQL</tools>
+            <title>{% trans "DÉVELOPPEMENT WEB - SITE E-COMMERCE" %}</title>
+            <institution>{% trans "Ecole d'Ingénieur Sup Galilée" %}</institution>
+            <description>{% trans "Réalisé en équipe de 5 étudiants au niveau académique - Développé en PHP - Java Script - Html et CSS" %}</description>
+            <tools>{% trans "Wamp/PHPmyadmin - SQL" %}</tools>
         </project>
         <project>
-            <title>TRANSPORT MONITORING - GPS</title>
-            <institution>Classes préparatoires Maristes-Sénégal</institution>
-            <date>Janvier 2021 / Juin 2021</date>
-            <description>Réalisation d'un système de suivi des bus de l'université via GPS - Développé en python</description>
-            <tools>Python3 - SQL alchemy - Flask - Requests - Raspberry Pi</tools>
+            <title>{% trans "TRANSPORT MONITORING - GPS" %}</title>
+            <institution>{% trans "Classes préparatoires Maristes-Sénégal" %}</institution>
+            <date>{% trans "Janvier 2021 / Juin 2021" %}</date>
+            <description>{% trans "Réalisation d'un système de suivi des bus de l'université via GPS - Développé en python" %}</description>
+            <tools>{% trans "Python3 - SQL alchemy - Flask - Requests - Raspberry Pi" %}</tools>
         </project>
         <project>
-            <title>LEARNING MACHINE MENACE</title>
-            <institution>Ecole d'Ingénieur Sup Galilée</institution>
-            <date>Décembre 2021 / Janvier 2022</date>
-            <description>IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants au niveau académique - Développé en C</description>
-            <tools>Langage C</tools>
+            <title>{% trans "LEARNING MACHINE MENACE" %}</title>
+            <institution>{% trans "Ecole d'Ingénieur Sup Galilée" %}</institution>
+            <date>{% trans "Décembre 2021 / Janvier 2022" %}</date>
+            <description>{% trans "IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants au niveau académique - Développé en C" %}</description>
+            <tools>{% trans "Langage C" %}</tools>
         </project>
         <project>
-            <title>DSP CALCULATOR</title>
-            <institution>Ecole d'Ingénieur Sup Galilée</institution>
-            <date>Mars 2022</date>
-            <description>Modélisation d'un système de type factory builder - Développé en Java</description>
-            <tools>Java</tools>
+            <title>{% trans "DSP CALCULATOR" %}</title>
+            <institution>{% trans "Ecole d'Ingénieur Sup Galilée" %}</institution>
+            <date>{% trans "Mars 2022" %}</date>
+            <description>{% trans "Modélisation d'un système de type factory builder - Développé en Java" %}</description>
+            <tools>{% trans "Java" %}</tools>
         </project>
     </projects>
     <education>
         <degree>
-            <title>DIPLOME D'INGENIEUR INFORMATIQUE</title>
-            <institution>Université Sorbonne Paris Nord, Villetaneuse - France</institution>
-            <date>2021 / 2025</date>
+            <title>{% trans "DIPLOME D'INGENIEUR INFORMATIQUE" %}</title>
+            <institution>{% trans "Université Sorbonne Paris Nord, Villetaneuse - France" %}</institution>
+            <date>{% trans "2021 / 2025" %}</date>
         </degree>
         <degree>
-            <title>CLASSE PRÉPARATOIRE</title>
-            <institution>Institut Mariste Post-BAC, Dakar - Sénégal</institution>
-            <date>Septembre 2019 / Juin 2021</date>
+            <title>{% trans "CLASSE PRÉPARATOIRE" %}</title>
+            <institution>{% trans "Institut Mariste Post-BAC, Dakar - Sénégal" %}</institution>
+            <date>{% trans "Septembre 2019 / Juin 2021" %}</date>
         </degree>
         <degree>
-            <title>BACCALAURÉAT SCIENTIFIQUE</title>
-            <institution>Ecole Privée Chez Etienne et Monique, Sénégal</institution>
-            <date>Juillet 2019</date>
+            <title>{% trans "BACCALAURÉAT SCIENTIFIQUE" %}</title>
+            <institution>{% trans "Ecole Privée Chez Etienne et Monique, Sénégal" %}</institution>
+            <date>{% trans "Juillet 2019" %}</date>
         </degree>
     </education>
     <languages>
         <language>
-            <name>ANGLAIS</name>
-            <level>Niveau avancé</level>
+            <name>{% trans "ANGLAIS" %}</name>
+            <level>{% trans "Niveau avancé" %}</level>
         </language>
         <language>
-            <name>WOLOF</name>
-            <level>Langue maternelle</level>
+            <name>{% trans "WOLOF" %}</name>
+            <level>{% trans "Langue maternelle" %}</level>
         </language>
     </languages>
     <skills>
-        <category name="LANGAGES DE PROGRAMMATION">
-            <skill>Python</skill>
-            <skill>Java</skill>
-            <skill>C</skill>
-            <skill>Matlab</skill>
+        <category name='{% trans "LANGAGES DE PROGRAMMATION" %}'>
+            <skill>{% trans "Python" %}</skill>
+            <skill>{% trans "Java" %}</skill>
+            <skill>{% trans "C" %}</skill>
+            <skill>{% trans "Matlab" %}</skill>
         </category>
-        <category name="TECHNOLOGIES WEB">
-            <skill>JavaScript</skill>
-            <skill>PHP</skill>
-            <skill>HTML/CSS</skill>
-            <skill>Django</skill>
-            <skill>Springboot</skill>
+        <category name='{% trans "TECHNOLOGIES WEB" %}'>
+            <skill>{% trans "JavaScript" %}</skill>
+            <skill>{% trans "PHP" %}</skill>
+            <skill>{% trans "HTML/CSS" %}</skill>
+            <skill>{% trans "Django" %}</skill>
+            <skill>{% trans "Springboot" %}</skill>
         </category>
-        <category name="BASE DE DONNÉES">
-            <skill>SQL</skill>
-            <skill>MySQL</skill>
-            <skill>SQLite</skill>
+        <category name='{% trans "BASE DE DONNÉES" %}'>
+            <skill>{% trans "SQL" %}</skill>
+            <skill>{% trans "MySQL" %}</skill>
+            <skill>{% trans "SQLite" %}</skill>
         </category>
-        <category name="AUTRES">
-            <skill>Json</skill>
-            <skill>UML</skill>
-            <skill>XML</skill>
+        <category name='{% trans "AUTRES" %}'>
+            <skill>{% trans "Json" %}</skill>
+            <skill>{% trans "UML" %}</skill>
+            <skill>{% trans "XML" %}</skill>
         </category>
-        <category name="OUTILS &amp; LOGICIELS">
-            <skill>Anaconda</skill>
-            <skill>PyCharm</skill>
-            <skill>Visual Studio Code</skill>
-            <skill>Git</skill>
-            <skill>Github</skill>
-            <skill>Eclipse</skill>
-            <skill>WampServer</skill>
-            <skill>Oracle</skill>
-            <skill>Pack Office</skill>
+        <category name='{% trans "OUTILS &amp; LOGICIELS" %}'>
+            <skill>{% trans "Anaconda" %}</skill>
+            <skill>{% trans "PyCharm" %}</skill>
+            <skill>{% trans "Visual Studio Code" %}</skill>
+            <skill>{% trans "Git" %}</skill>
+            <skill>{% trans "Github" %}</skill>
+            <skill>{% trans "Eclipse" %}</skill>
+            <skill>{% trans "WampServer" %}</skill>
+            <skill>{% trans "Oracle" %}</skill>
+            <skill>{% trans "Pack Office" %}</skill>
         </category>
     </skills>
     <attributes>
-        <attribute>Autonomie</attribute>
-        <attribute>Capacité d'écoute et de compréhension</attribute>
-        <attribute>Travail d'équipe</attribute>
+        <attribute>{% trans "Autonomie" %}</attribute>
+        <attribute>{% trans "Capacité d'écoute et de compréhension" %}</attribute>
+        <attribute>{% trans "Travail d'équipe" %}</attribute>
     </attributes>
     <interests>
-        <interest>Basketball</interest>
-        <interest>Programmation</interest>
-        <interest>Musique</interest>
+        <interest>{% trans "Basketball 🏀" %}</interest>
+        <interest>{% trans "Programmation 💻" %}</interest>
+        <interest>{% trans "Musique 🎵" %}</interest>
     </interests>
     <links>
         <link>https://github.com/AloyseSECK</link>

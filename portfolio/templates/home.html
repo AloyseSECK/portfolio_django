@@ -20,7 +20,7 @@
         <!-- Formulaire qui permet de mettre à jour la langue de la page affichée -->
         <form id="languageForm" action="/i18n/setlang/" method="post">
             {% csrf_token %}
-            <input name="next" type="hidden" value="/resume">
+            <input name="next" type="hidden" value="/">
             <input id="languageInput" name="language" type="hidden">
         </form>
         <div>
@@ -48,7 +48,7 @@
                                 <div class="container">
                                     <div class="row">
                                         <div class="col text-center">
-                                            <a href="/resume/">
+                                            <a href="/cv/">
                                                 <div id="circle1" class="circle">{% trans "CV" %}</div>
                                             </a>
                                         </div>

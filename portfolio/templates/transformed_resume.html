@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" id="html-bloc">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
                 {% load i18n %}    
@@ -37,9 +37,9 @@
                                 FR 🇫🇷
                             </button>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#" onclick="changeLanguage('fr'); updateButtonText(this);">FR 🇫🇷</a>
-                                <a class="dropdown-item" href="#" onclick="changeLanguage('en'); updateButtonText(this);">EN 🇬🇧</a>
-                                <a class="dropdown-item" href="#" onclick="changeLanguage('ru'); updateButtonText(this);">РФ 🇷🇺</a>
+                                <a class="dropdown-item" href="#" data-lang="fr" onclick="changeLanguage('fr'); updateButtonText(this);">FR 🇫🇷</a>
+                                <a class="dropdown-item" href="#" data-lang="en" onclick="changeLanguage('en'); updateButtonText(this);">EN 🇬🇧</a>
+                                <a class="dropdown-item" href="#" data-lang="ru" onclick="changeLanguage('ru'); updateButtonText(this);">РФ 🇷🇺</a>
                             </div>
                         </div>
                     </div>
@@ -189,8 +189,11 @@
                     function updateButtonText(element) {
                         var button = document.getElementById('dropdownMenuButton');
                         button.textContent = element.textContent;
+                        var lang = element.getAttribute('data-lang');
+                        document.documentElement.setAttribute('lang', lang);
                         // Store the selected language in a cookie
-                        document.cookie = "selectedLanguage=" + encodeURIComponent(element.textContent) + "; path=/";
+                        document.cookie = "selectedLanguage=" + encodeURIComponent(lang) + "; path=/";
+                        document.cookie = "languageDisplay=" + encodeURIComponent(element.textContent) + "; path=/";
                     }
                 
                     function changeLanguage(lang) {
@@ -215,7 +218,9 @@
                         var selectedLanguage = getCookie("selectedLanguage");
                         if (selectedLanguage) {
                             var button = document.getElementById('dropdownMenuButton');
-                            button.textContent = selectedLanguage;
+                            button.textContent = getCookie("languageDisplay");
+                            console.log(selectedLanguage);
+                            document.documentElement.setAttribute('lang', selectedLanguage);
                         }
                     });
 

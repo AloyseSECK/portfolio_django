@@ -20,7 +20,7 @@
                             <a href="/cv/">{% trans "CV" %}</a>
                         </div>
                         <div id="contact-link" class="col">
-                            <a href="#">{% trans "Contact" %}</a>
+                            <a href="#" onclick="showContactCard()">{% trans "Contact" %}</a>
                         </div>
                         <div id="header" class="col dropdown">
                             <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -37,6 +37,22 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="myContactCard" class="contactCard">
+            <div class="card-content">
+                <span class="close" onclick="hideContactCard()">&times;</span>
+                <div class="card">
+                    <div class="align">
+                        <span class="red"></span>
+                        <span class="yellow"></span>
+                        <span class="green"></span>
+                    </div>
+                    <h1>HOVER ME</h1>
+                    <p>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde explicabo enim rem odio assumenda?
+                    </p>
                 </div>
             </div>
         </div>

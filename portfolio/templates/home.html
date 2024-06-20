@@ -58,7 +58,7 @@
                                             </a>
                                         </div>
                                         <div class="col text-center">
-                                            <a href="#">
+                                            <a href="#" onclick="showContactCard()">
                                                 <div id="circle3" class="circle">{% trans "Contact" %}</div>
                                             </a>
                                         </div>
@@ -119,6 +119,22 @@
                 document.documentElement.setAttribute('lang', selectedLanguage);
             }
         });
+        
+        // Pop-up card functions
+        function showContactCard() {
+            document.getElementById("myContactCard").style.display = "flex";
+        }
+        
+        function hideContactCard() {
+            document.getElementById("myContactCard").style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            var pop_up_card = document.getElementById("myContactCard");
+            if (event.target == pop_up_card) {
+                pop_up_card.style.display = "none";
+            }
+        }
     </script>
 </body>
 

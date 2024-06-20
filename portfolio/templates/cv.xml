@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="{% static 'portfolio/xslt/cv_style2.xslt' %}"?>
+<?xml-stylesheet type="text/xsl" href="{% static 'portfolio/xslt/cv_style.xslt' %}"?>
 <!DOCTYPE resume SYSTEM "structure_cv.dtd">
 <resume>
     <personalInfo>

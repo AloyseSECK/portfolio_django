@@ -20,7 +20,7 @@
         <!-- Formulaire qui permet de mettre à jour la langue de la page affichée -->
         <form id="languageForm" action="/i18n/setlang/" method="post">
             {% csrf_token %}
-            <input name="next" type="hidden" value="{{ request.path }}">
+            <input name="next" type="hidden" value="/resume">
             <input id="languageInput" name="language" type="hidden">
         </form>
         <div>

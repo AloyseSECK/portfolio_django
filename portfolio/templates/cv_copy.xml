@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="{% static 'portfolio/xslt/cv_style2.xslt' %}"?>
+<?xml-stylesheet type="text/xsl" href="{% static 'portfolio/xslt/cv_style_copy.xslt' %}"?>
 <!DOCTYPE resume SYSTEM "structure_cv.dtd">
 <resume>
     <personalInfo>
@@ -74,30 +74,30 @@
         </language>
     </languages>
     <skills>
-        <category name="LANGAGES DE PROGRAMMATION">
+        <category name='{% trans "LANGAGES DE PROGRAMMATION" %}'>
             <skill>{% trans "Python" %}</skill>
             <skill>{% trans "Java" %}</skill>
             <skill>{% trans "C" %}</skill>
             <skill>{% trans "Matlab" %}</skill>
         </category>
-        <category name="TECHNOLOGIES WEB">
+        <category name='{% trans "TECHNOLOGIES WEB" %}'>
             <skill>{% trans "JavaScript" %}</skill>
             <skill>{% trans "PHP" %}</skill>
             <skill>{% trans "HTML/CSS" %}</skill>
             <skill>{% trans "Django" %}</skill>
             <skill>{% trans "Springboot" %}</skill>
         </category>
-        <category name="BASE DE DONNÉES">
+        <category name='{% trans "BASE DE DONNÉES" %}'>
             <skill>{% trans "SQL" %}</skill>
             <skill>{% trans "MySQL" %}</skill>
             <skill>{% trans "SQLite" %}</skill>
         </category>
-        <category name="AUTRES">
+        <category name='{% trans "AUTRES" %}'>
             <skill>{% trans "Json" %}</skill>
             <skill>{% trans "UML" %}</skill>
             <skill>{% trans "XML" %}</skill>
         </category>
-        <category name="OUTILS &amp; LOGICIELS">
+        <category name='{% trans "OUTILS &amp; LOGICIELS" %}'>
             <skill>{% trans "Anaconda" %}</skill>
             <skill>{% trans "PyCharm" %}</skill>
             <skill>{% trans "Visual Studio Code" %}</skill>
@@ -115,9 +115,9 @@
         <attribute>{% trans "Travail d'équipe" %}</attribute>
     </attributes>
     <interests>
-        <interest>{% trans "Basketball" %}</interest>
-        <interest>{% trans "Programmation" %}</interest>
-        <interest>{% trans "Musique" %}</interest>
+        <interest>{% trans "Basketball 🏀" %}</interest>
+        <interest>{% trans "Programmation 💻" %}</interest>
+        <interest>{% trans "Musique 🎵" %}</interest>
     </interests>
     <links>
         <link>https://github.com/AloyseSECK</link>

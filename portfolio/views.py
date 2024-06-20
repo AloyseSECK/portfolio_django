@@ -38,5 +38,5 @@ def create_html_from_xslt():
 
 
 def render_resume(request):
-    create_html_from_xslt()
+    # create_html_from_xslt()
     return render(request, 'transformed_resume.html')

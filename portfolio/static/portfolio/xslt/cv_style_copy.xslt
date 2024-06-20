@@ -6,7 +6,7 @@
         <html>
             <head>
                 {% load i18n %}    
-                <title>{% trans "Resume of Aloyse Maliam SECK" %}</title>
+                <title>{% trans "Portfolio - Aloyse Maliam SECK" %}</title>
                 <link rel="stylesheet" type="text/css" href="/static/portfolio/css/cv_style.css" />
                 <link rel="stylesheet" type="text/css" href="/static/portfolio/css/home_style.css" />
                 <link rel="stylesheet"

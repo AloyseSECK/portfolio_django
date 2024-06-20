@@ -288,15 +288,11 @@ msgid "Juillet 2019"
 msgstr "July 2019"
 
 #: portfolio/templates/transformed_resume.html:116
-#, fuzzy
-#| msgid "Langage C"
 msgid "Langues"
 msgstr "Languages"
 
 #: portfolio/templates/transformed_resume.html:118
 #: portfolio/templates/transformed_resume.html:122
-#, fuzzy
-#| msgid "Langage C"
 msgid "Langue"
 msgstr "Language"
 
@@ -306,8 +302,6 @@ msgstr "ENGLISH"
 
 #: portfolio/templates/transformed_resume.html:119
 #: portfolio/templates/transformed_resume.html:123
-#, fuzzy
-#| msgid "Niveau avancé"
 msgid "Niveau"
 msgstr "Level"
 

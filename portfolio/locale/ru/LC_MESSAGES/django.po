@@ -245,7 +245,7 @@ msgstr "Java"
 
 #: portfolio/templates/transformed_resume.html:98
 msgid "Cursus Scolaire"
-msgstr ""
+msgstr "Учебный курс"
 
 #: portfolio/templates/transformed_resume.html:100
 #: portfolio/templates/transformed_resume.html:105
@@ -290,15 +290,11 @@ msgid "Juillet 2019"
 msgstr "Июль 2019"
 
 #: portfolio/templates/transformed_resume.html:116
-#, fuzzy
-#| msgid "Langage C"
 msgid "Langues"
 msgstr "Язык C"
 
 #: portfolio/templates/transformed_resume.html:118
 #: portfolio/templates/transformed_resume.html:122
-#, fuzzy
-#| msgid "Langage C"
 msgid "Langue"
 msgstr "Язык C"
 
@@ -308,8 +304,6 @@ msgstr "АНГЛИЙСКИЙ"
 
 #: portfolio/templates/transformed_resume.html:119
 #: portfolio/templates/transformed_resume.html:123
-#, fuzzy
-#| msgid "Niveau avancé"
 msgid "Niveau"
 msgstr "Продвинутый уровень"
 
@@ -327,11 +321,11 @@ msgstr "Родной язык"
 
 #: portfolio/templates/transformed_resume.html:127
 msgid "Compétences"
-msgstr ""
+msgstr "Навыки"
 
 #: portfolio/templates/transformed_resume.html:129
 msgid "LANGAGES DE PROGRAMMATION"
-msgstr ""
+msgstr "ЯЗЫКИ ПРОГРАММИРОВАНИЯ"
 
 #: portfolio/templates/transformed_resume.html:130
 msgid "Python"
@@ -349,7 +343,7 @@ msgstr "Matlab"
 
 #: portfolio/templates/transformed_resume.html:136
 msgid "TECHNOLOGIES WEB"
-msgstr ""
+msgstr "WEB-ТЕХНОЛОГИИ"
 
 #: portfolio/templates/transformed_resume.html:137
 msgid "JavaScript"
@@ -373,7 +367,7 @@ msgstr "Springboot"
 
 #: portfolio/templates/transformed_resume.html:144
 msgid "BASE DE DONNÉES"
-msgstr ""
+msgstr "БАЗЫ ДАННЫХ"
 
 #: portfolio/templates/transformed_resume.html:145
 msgid "SQL"
@@ -389,7 +383,7 @@ msgstr "SQLite"
 
 #: portfolio/templates/transformed_resume.html:150
 msgid "AUTRES"
-msgstr ""
+msgstr "ПРОЧЕЕ"
 
 #: portfolio/templates/transformed_resume.html:151
 msgid "Json"
@@ -405,7 +399,7 @@ msgstr "XML"
 
 #: portfolio/templates/transformed_resume.html:156
 msgid "OUTILS &amp; LOGICIELS"
-msgstr ""
+msgstr "ИНСТРУМЕНТЫ И ПРОГРАММЫ"
 
 #: portfolio/templates/transformed_resume.html:157
 msgid "Anaconda"
@@ -445,7 +439,7 @@ msgstr "Pack Office"
 
 #: portfolio/templates/transformed_resume.html:169
 msgid "Atouts"
-msgstr ""
+msgstr "Сильные стороны"
 
 #: portfolio/templates/transformed_resume.html:170
 msgid "Autonomie"
@@ -461,7 +455,7 @@ msgstr "Командная работа"
 
 #: portfolio/templates/transformed_resume.html:175
 msgid "Centres d'intérêt"
-msgstr ""
+msgstr "Интересы"
 
 #: portfolio/templates/transformed_resume.html:176
 #, fuzzy
@@ -483,4 +477,4 @@ msgstr "Музыка"
 
 #: portfolio/templates/transformed_resume.html:181
 msgid "Liens utiles"
-msgstr ""
+msgstr "Полезные ссылки"

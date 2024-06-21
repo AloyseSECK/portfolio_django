@@ -192,6 +192,7 @@ button {
   }  
 
 /* ---------------------------- CONTACT CARD STYLE -------------------------------- */
+
 .contactCard {
     display: none;
     position: fixed;
@@ -201,7 +202,8 @@ button {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(3px);
     justify-content: center;
     align-items: center;
 }
@@ -223,10 +225,11 @@ button {
     text-decoration: none;
 }
 .card {
-    width: 500px;
+    width: 700px;
     height: 120px;
     padding: 0.5rem;
-    background: rgba(198, 198, 198, 0.34);
+    background: rgb(34,32,32);
+    background: linear-gradient(90deg, rgba(34,32,32,1) 0%, rgba(157,157,157,1) 81%, rgba(228,227,227,1) 100%); 
     border-radius: 8px;
     backdrop-filter: blur(5px);
     border-bottom: 3px solid rgba(255, 255, 255, 0.440);
@@ -238,7 +241,7 @@ button {
     color: white;
 }
 .card:hover {
-    height: 254px;
+    height: 310px;
     transform: skew(0deg);
 }
 .align {
@@ -264,4 +267,20 @@ button {
     text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
 }
 
+.social-networks {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.circle-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.circle-img:hover {
+    transform: scale(1.15);
+}
 /* ------------------------------------------------------------ */

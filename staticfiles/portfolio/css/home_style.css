@@ -357,7 +357,7 @@ button {
 .red { background-color: #ff605c; }
 .yellow { background-color: #ffbd44; }
 .green { background-color: #00ca4e; }
-.card h1 {
+.card h2 {
     text-align: center;
     margin: 1.3rem;
     color: rgb(218, 244, 237);

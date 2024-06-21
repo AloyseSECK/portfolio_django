@@ -215,9 +215,10 @@ button {
 .close {
     color: #aaa;
     float: right;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     cursor: pointer;
+    margin-left: 2px;
 }
 .close:hover,
 .close:focus {
@@ -230,7 +231,7 @@ button {
     padding: 0.5rem;
     background: rgb(34,32,32);
     background: linear-gradient(90deg, rgba(34,32,32,1) 0%, rgba(157,157,157,1) 81%, rgba(228,227,227,1) 100%); 
-    border-radius: 8px;
+    border-radius: 1em !important;
     backdrop-filter: blur(5px);
     border-bottom: 3px solid rgba(255, 255, 255, 0.440);
     border-left: 2px rgba(255, 255, 255, 0.545) outset;

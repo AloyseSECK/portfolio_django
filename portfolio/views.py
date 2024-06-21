@@ -34,7 +34,10 @@ def create_html_from_xslt():
     with open(output_html_file_path, 'w') as html_file:
         html_file.write(str(html_output))
 
+    print("=============================================\n")
     print(f"HTML file created at {output_html_file_path}")
+    print("=============================================\n")
+
 
 
 def render_resume(request):

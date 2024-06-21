@@ -19,7 +19,7 @@
             </head>
             <body>
                 <!-- HEADER -->
-                <xsl:copy-of select="document('../../../templates/header.html')/*" /> 
+                <xsl:copy-of select="document('../../../templates/header.html')/*" /> ER
                 <main class="CV">
                     <form id="languageForm" action="/i18n/setlang/" method="post">
                         {% csrf_token %}
@@ -152,7 +152,7 @@
                         </div>
                     </div>
                 </main>
-                <xsl:copy-of select="document('../../../templates/footer.html')/*" /> <!-- FOOTER -->
+                <xsl:copy-of select="document('../../../templates/footer.html')/*" />  <!-- FOOTER -->
                 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
                     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
                     crossorigin="anonymous"></script>
@@ -204,6 +204,24 @@
                     document.addEventListener('DOMContentLoaded', function() {
                         document.getElementById('nextInput').value = window.location.pathname;
                     });
+
+
+                    // Pop-up card functions
+                    function showContactCard() {
+                        document.getElementById("myContactCard").style.display = "flex";
+                    }
+                    
+                    function hideContactCard() {
+                        document.getElementById("myContactCard").style.display = "none";
+                    }
+            
+                    window.onclick = function(event) {
+                        var pop_up_card = document.getElementById("myContactCard");
+                        if (event.target == pop_up_card) {
+                            pop_up_card.style.display = "none";
+                        }
+                    }
+
                 </script>
             </body>
         </html>

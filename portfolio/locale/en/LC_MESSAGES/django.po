@@ -461,20 +461,14 @@ msgid "Centres d'intérêt"
 msgstr "Interests"
 
 #: portfolio/templates/transformed_resume.html:209
-#, fuzzy
-#| msgid "Basketball"
 msgid "Basketball 🏀"
 msgstr "Basketball 🏀"
 
 #: portfolio/templates/transformed_resume.html:210
-#, fuzzy
-#| msgid "Programmation"
 msgid "Programmation 💻"
 msgstr "Programming 💻"
 
 #: portfolio/templates/transformed_resume.html:211
-#, fuzzy
-#| msgid "Musique"
 msgid "Musique 🎵"
 msgstr "Music 🎵"
 

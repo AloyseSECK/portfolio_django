@@ -141,7 +141,7 @@
                         <div id="link-section" >
                             <div class="link">
                                 <a href="{resume/links/link[1]}" target="_blank">
-                                    <img id="github-logo" src="/static/portfolio/img/github.svg" alt="{resume/links/link[1]}" />
+                                    <img id="github-logo" src="/static/portfolio/img/github.png" alt="{resume/links/link[1]}" />
                                 </a>
                             </div>
                             <div class="link">

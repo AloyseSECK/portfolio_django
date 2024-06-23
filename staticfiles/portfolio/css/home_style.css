@@ -364,6 +364,7 @@ button {
     text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
 }
 
+/* ------------------------------------------------------------ */
 .social-networks {
     margin: 0 auto;
     width: fit-content;
@@ -380,4 +381,23 @@ button {
 .circle-img:hover {
     transform: scale(1.15);
 }
+
 /* ------------------------------------------------------------ */
+.video-container {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.video-container iframe {
+    width: 1000px;
+    height: 515px;
+    border: none; 
+}
+
+@media (max-width: 600px) {
+    .video-container iframe {
+        width: 100%; 
+        height: auto;
+    }
+}    

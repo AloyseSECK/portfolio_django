@@ -6,7 +6,7 @@ from django.conf.urls.i18n import i18n_patterns
 
 urlpatterns = [
     path('', views.home, name='home'),
-    path('', views.video, name='video'),
+    path('video/', views.video, name='video'),
     path('cv/', views.render_resume, name='render_resume'),
     path('i18n/', include('django.conf.urls.i18n')),
 ]

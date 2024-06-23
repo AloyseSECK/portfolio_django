@@ -61,6 +61,9 @@ msgstr ""
 "новые технологии и решать проблемы."
 
 #: portfolio/templates/home.html:57
+msgid "Vidéo"
+msgstr "Видео"
+
 #: portfolio/templates/transformed_resume.html:100
 msgid "Projets"
 msgstr "Проекты"

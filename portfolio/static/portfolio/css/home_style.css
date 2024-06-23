@@ -365,3 +365,39 @@ button {
 }
 
 /* ------------------------------------------------------------ */
+.social-networks {
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.circle-img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 10px;
+    transition: transform 0.3s ease; 
+}
+
+.circle-img:hover {
+    transform: scale(1.15);
+}
+
+/* ------------------------------------------------------------ */
+.video-container {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.video-container iframe {
+    width: 1000px;
+    height: 515px;
+    border: none; 
+}
+
+@media (max-width: 600px) {
+    .video-container iframe {
+        width: 100%; 
+        height: auto;
+    }
+}    

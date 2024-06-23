@@ -59,6 +59,9 @@ msgstr ""
 "solving problems."
 
 #: portfolio/templates/home.html:57
+msgid "Vidéo"
+msgstr "Video"
+
 #: portfolio/templates/transformed_resume.html:100
 msgid "Projets"
 msgstr "Projects"

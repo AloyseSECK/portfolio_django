@@ -9,7 +9,9 @@ import os
 
 def home(request):
     return render(request, 'home.html')
- 
+
+def video(request):
+    return render(request, 'video.html')
 
 def create_html_from_xslt():
     # Paths to your files

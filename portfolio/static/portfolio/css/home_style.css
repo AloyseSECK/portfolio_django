@@ -364,20 +364,4 @@ button {
     text-shadow: -10px 5px 10px rgba(0, 0, 0, 0.573);
 }
 
-.social-networks {
-    margin: 0 auto;
-    width: fit-content;
-}
-
-.circle-img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    margin: 10px;
-    transition: transform 0.3s ease; 
-}
-
-.circle-img:hover {
-    transform: scale(1.15);
-}
 /* ------------------------------------------------------------ */

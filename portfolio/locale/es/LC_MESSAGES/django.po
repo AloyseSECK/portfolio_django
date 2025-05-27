@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 13:27+0200\n"
+"POT-Creation-Date: 2025-05-27 13:42+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Spanish <es@li.org>\n"
@@ -99,12 +99,9 @@ msgid "Objectif"
 msgstr "Objetivo"
 
 #: portfolio/templates/transformed_resume.html:36
-msgid "Alternant DevOps - Cloud chez INSERM"
-msgstr "Aprendiz DevOps - Cloud en INSERM"
+msgid "A la recherche d'un CDI/CDD en tant qu'ingénieur DevOps"
+msgstr "En busca de un contrato indefinido o temporal como ingeniero DevOps"
 
-#: portfolio/templates/transformed_resume.html:36
-msgid "Octobre 2023 / Août 2025"
-msgstr "Octubre 2023 / Agosto 2025"
 
 #: portfolio/templates/transformed_resume.html:39
 msgid "Projets"
@@ -134,7 +131,7 @@ msgstr "Escuela de Ingeniería Sup Galilée"
 
 #: portfolio/templates/transformed_resume.html:43
 #: portfolio/templates/transformed_resume.html:52
-#: portfolio/templates/transformed_resume.html:60
+#: portfolio/templates/transformed_resume.html:59
 msgid "Date"
 msgstr "Fecha"
 
@@ -144,7 +141,7 @@ msgstr "Abril 2024"
 
 #: portfolio/templates/transformed_resume.html:44
 #: portfolio/templates/transformed_resume.html:53
-#: portfolio/templates/transformed_resume.html:61
+#: portfolio/templates/transformed_resume.html:60
 msgid "Description"
 msgstr "Descripción"
 
@@ -153,12 +150,12 @@ msgid ""
 "Création d’un portfolio multilingue intégrant mon CV, mettant en valeur mes "
 "compétences et réalisations."
 msgstr ""
-"Creación de un portafolio multilingüe que integra mi currículum, destacando mis competencias y logros."
-
+"Creación de un portafolio multilingüe que integra mi currículum, destacando "
+"mis competencias y logros."
 
 #: portfolio/templates/transformed_resume.html:45
 #: portfolio/templates/transformed_resume.html:54
-#: portfolio/templates/transformed_resume.html:62
+#: portfolio/templates/transformed_resume.html:61
 msgid "Outils"
 msgstr "Herramientas"
 
@@ -176,8 +173,8 @@ msgstr "Noviembre 2023"
 
 #: portfolio/templates/transformed_resume.html:53
 msgid "Développé en équipe de 2 étudiants - React - TypeScript - HTML - CSS"
-msgstr "Desarrollado en equipo de 2 estudiantes - React - TypeScript - HTML - CSS"
-
+msgstr ""
+"Desarrollado en equipo de 2 estudiantes - React - TypeScript - HTML - CSS"
 
 #: portfolio/templates/transformed_resume.html:54
 msgid "Visual Studio Code"
@@ -187,60 +184,68 @@ msgstr "Visual Studio Code"
 msgid "LEARNING MACHINE MENACE"
 msgstr "LEARNING MACHINE MENACE"
 
-#: portfolio/templates/transformed_resume.html:60
+#: portfolio/templates/transformed_resume.html:59
 msgid "Décembre 2021 / Janvier 2022"
 msgstr "Diciembre 2021 / Enero 2022"
 
-#: portfolio/templates/transformed_resume.html:61
+#: portfolio/templates/transformed_resume.html:60
 msgid ""
 "IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants - "
 "Développé en C"
-msgstr "IA que aprende a jugar al tres en raya - Realizado en equipo de 3 estudiantes - Desarrollado en C"
+msgstr ""
+"IA que aprende a jugar al tres en raya - Realizado en equipo de 3 "
+"estudiantes - Desarrollado en C"
 
-#: portfolio/templates/transformed_resume.html:62
+#: portfolio/templates/transformed_resume.html:61
 msgid "Langage C"
 msgstr "Lenguaje C"
 
-#: portfolio/templates/transformed_resume.html:66
+#: portfolio/templates/transformed_resume.html:65
 msgid "Langues"
 msgstr "Idiomas"
 
-#: portfolio/templates/transformed_resume.html:68
-#: portfolio/templates/transformed_resume.html:72
-#: portfolio/templates/transformed_resume.html:76
+#: portfolio/templates/transformed_resume.html:67
+#: portfolio/templates/transformed_resume.html:71
+#: portfolio/templates/transformed_resume.html:75
 msgid "Langue"
 msgstr "Idioma"
 
-#: portfolio/templates/transformed_resume.html:68
+#: portfolio/templates/transformed_resume.html:67
 msgid "FRANÇAIS"
 msgstr "FRANCÉS"
 
-#: portfolio/templates/transformed_resume.html:69
-#: portfolio/templates/transformed_resume.html:73
-#: portfolio/templates/transformed_resume.html:77
+#: portfolio/templates/transformed_resume.html:68
+#: portfolio/templates/transformed_resume.html:72
+#: portfolio/templates/transformed_resume.html:76
 msgid "Niveau"
 msgstr "Nivel"
 
-#: portfolio/templates/transformed_resume.html:69
+#: portfolio/templates/transformed_resume.html:68
 msgid "Avancé"
 msgstr "Avanzado"
 
-#: portfolio/templates/transformed_resume.html:72
+#: portfolio/templates/transformed_resume.html:71
 msgid "ANGLAIS"
 msgstr "INGLÉS"
 
-#: portfolio/templates/transformed_resume.html:73
+#: portfolio/templates/transformed_resume.html:72
 msgid "Niveau B2 (TOEIC)"
 msgstr "Nivel B2 (TOEIC)"
 
-#: portfolio/templates/transformed_resume.html:76
+#: portfolio/templates/transformed_resume.html:75
 msgid "WOLOF"
 msgstr "WOLOF"
 
-#: portfolio/templates/transformed_resume.html:77
+#: portfolio/templates/transformed_resume.html:76
 msgid "Langue maternelle"
 msgstr "Lengua materna"
 
-#: portfolio/templates/transformed_resume.html:81
+#: portfolio/templates/transformed_resume.html:80
 msgid "Liens utiles"
 msgstr "Enlaces útiles"
+
+#~ msgid "Alternant DevOps - Cloud chez INSERM"
+#~ msgstr "Aprendiz DevOps - Cloud en INSERM"
+
+#~ msgid "Octobre 2023 / Août 2025"
+#~ msgstr "Octubre 2023 / Agosto 2025"

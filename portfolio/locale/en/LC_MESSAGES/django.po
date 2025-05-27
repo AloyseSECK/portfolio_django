@@ -128,6 +128,7 @@ msgstr "Institution"
 
 #: portfolio/templates/transformed_resume.html:42
 #: portfolio/templates/transformed_resume.html:51
+#: portfolio/templates/transformed_resume.html:58
 msgid "Ecole d'Ingénieur Sup Galilée"
 msgstr "Sup Galilée engineering School"
 

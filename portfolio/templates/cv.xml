@@ -4,56 +4,49 @@
 <resume>
     <personalInfo>
         <name>{% trans "SECK Aloyse Maliam" %}</name>
-        <title>{% trans "INGENIEUR INFORMATIQUE EN ALTERNANCE" %}</title>
+        <title>{% trans "INGÉNIEUR DEVOPS" %}</title>
         <contact>
             <phone>06 01 41 07 98</phone>
             <email>aloysemaliamseck@gmail.com</email>
             <location>{% trans "95330 DOMONT" %}</location>
         </contact>
-        <availability>{% trans "Disponibilité : Dès septembre 2023" %}</availability>
-        <age>{% trans "22 ans" %}</age>
+        <availability>{% trans "Disponibilité : Dès Octobre 2025" %}</availability>
     </personalInfo>
     <objective>
-        {% trans "A la recherche d'un contrat d'apprentissage de 24 mois" %}
-        <duration>{% trans "Rythme : Un mois sur deux en entreprise" %}</duration>
+        {% trans "Alternant DevOps - Cloud chez INSERM" %}
+        <duration>{% trans "Octobre 2023 / Août 2025" %}</duration>
     </objective>
     <projects>
         <project>
-            <title>{% trans "DÉVELOPPEMENT WEB - SITE E-COMMERCE" %}</title>
+            <title>{% trans "SITE WEB PORTFOLIO" %}</title>
             <institution>{% trans "Ecole d'Ingénieur Sup Galilée" %}</institution>
-            <description>{% trans "Réalisé en équipe de 5 étudiants au niveau académique - Développé en PHP - Java Script - Html et CSS" %}</description>
-            <tools>{% trans "Wamp/PHPmyadmin - SQL" %}</tools>
+            <date>{% trans "Avril 2024" %}</date>
+            <description>{% trans "Création d’un portfolio multilingue intégrant mon CV, mettant en valeur mes compétences et réalisations." %}</description>
+            <tools>{% trans "Visual Studio Code - HTML - CSS - Django" %}</tools>
         </project>
         <project>
-            <title>{% trans "TRANSPORT MONITORING - GPS" %}</title>
-            <institution>{% trans "Classes préparatoires Maristes-Sénégal" %}</institution>
-            <date>{% trans "Janvier 2021 / Juin 2021" %}</date>
-            <description>{% trans "Réalisation d'un système de suivi des bus de l'université via GPS - Développé en python" %}</description>
-            <tools>{% trans "Python3 - SQL alchemy - Flask - Requests - Raspberry Pi" %}</tools>
+            <title>{% trans "THE MOVIE DB - SITE WEB VITRINE CINÉMA" %}</title>
+            <institution>{% trans "Ecole d'Ingénieur Sup Galilée" %}</institution>
+            <date>{% trans "Novembre 2023" %}</date>
+            <description>{% trans "Développé en équipe de 2 étudiants - React - TypeScript - HTML - CSS" %}</description>
+            <tools>{% trans "Visual Studio Code" %}</tools>
         </project>
         <project>
             <title>{% trans "LEARNING MACHINE MENACE" %}</title>
             <institution>{% trans "Ecole d'Ingénieur Sup Galilée" %}</institution>
             <date>{% trans "Décembre 2021 / Janvier 2022" %}</date>
-            <description>{% trans "IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants au niveau académique - Développé en C" %}</description>
+            <description>{% trans "IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants - Développé en C" %}</description>
             <tools>{% trans "Langage C" %}</tools>
-        </project>
-        <project>
-            <title>{% trans "DSP CALCULATOR" %}</title>
-            <institution>{% trans "Ecole d'Ingénieur Sup Galilée" %}</institution>
-            <date>{% trans "Mars 2022" %}</date>
-            <description>{% trans "Modélisation d'un système de type factory builder - Développé en Java" %}</description>
-            <tools>{% trans "Java" %}</tools>
         </project>
     </projects>
     <education>
         <degree>
-            <title>{% trans "DIPLOME D'INGENIEUR INFORMATIQUE" %}</title>
+            <title>{% trans "DIPLÔME D'INGÉNIEUR INFORMATIQUE" %}</title>
             <institution>{% trans "Université Sorbonne Paris Nord, Villetaneuse - France" %}</institution>
-            <date>{% trans "2021 / 2025" %}</date>
+            <date>{% trans "Septembre 2021" %}</date>
         </degree>
         <degree>
-            <title>{% trans "CLASSE PRÉPARATOIRE" %}</title>
+            <title>{% trans "CLASSE PRÉPARATOIRE GÉNÉRALE" %}</title>
             <institution>{% trans "Institut Mariste Post-BAC, Dakar - Sénégal" %}</institution>
             <date>{% trans "Septembre 2019 / Juin 2021" %}</date>
         </degree>
@@ -65,8 +58,12 @@
     </education>
     <languages>
         <language>
+            <name>{% trans "FRANÇAIS" %}</name>
+            <level>{% trans "Avancé" %}</level>
+        </language>
+        <language>
             <name>{% trans "ANGLAIS" %}</name>
-            <level>{% trans "Niveau avancé" %}</level>
+            <level>{% trans "Niveau B2 (TOEIC)" %}</level>
         </language>
         <language>
             <name>{% trans "WOLOF" %}</name>
@@ -78,41 +75,45 @@
             <skill>{% trans "Python" %}</skill>
             <skill>{% trans "Java" %}</skill>
             <skill>{% trans "C" %}</skill>
-            <skill>{% trans "Matlab" %}</skill>
+            <skill>{% trans "C++" %}</skill>
         </category>
         <category name='{% trans "TECHNOLOGIES WEB" %}'>
-            <skill>{% trans "JavaScript" %}</skill>
-            <skill>{% trans "PHP" %}</skill>
+            <skill>{% trans "React" %}</skill>
+            <skill>{% trans "VueJS" %}</skill>
             <skill>{% trans "HTML/CSS" %}</skill>
             <skill>{% trans "Django" %}</skill>
             <skill>{% trans "Springboot" %}</skill>
         </category>
         <category name='{% trans "BASE DE DONNÉES" %}'>
-            <skill>{% trans "SQL" %}</skill>
+            <skill>{% trans "PostgreSQL" %}</skill>
             <skill>{% trans "MySQL" %}</skill>
             <skill>{% trans "SQLite" %}</skill>
+            <skill>{% trans "Oracle" %}</skill>
         </category>
-        <category name='{% trans "AUTRES" %}'>
-            <skill>{% trans "Json" %}</skill>
-            <skill>{% trans "UML" %}</skill>
-            <skill>{% trans "XML" %}</skill>
+        <category name='{% trans "CONTENEURISATION" %}'>
+            <skill>{% trans "Docker" %}</skill>
+            <skill>{% trans "Kubernetes" %}</skill>
+            <skill>{% trans "VMware" %}</skill>
+            <skill>{% trans "Yaml" %}</skill>
         </category>
         <category name='{% trans "OUTILS &amp; LOGICIELS" %}'>
-            <skill>{% trans "Anaconda" %}</skill>
             <skill>{% trans "PyCharm" %}</skill>
             <skill>{% trans "Visual Studio Code" %}</skill>
             <skill>{% trans "Git" %}</skill>
-            <skill>{% trans "Github" %}</skill>
+            <skill>{% trans "GitHub" %}</skill>
+            <skill>{% trans "GitLab" %}</skill>
             <skill>{% trans "Eclipse" %}</skill>
-            <skill>{% trans "WampServer" %}</skill>
             <skill>{% trans "Oracle" %}</skill>
-            <skill>{% trans "Pack Office" %}</skill>
+        </category>
+        <category name='{% trans "AUTRES" %}'>
+            <skill>{% trans "SonarQube" %}</skill>
+            <skill>{% trans "Selenium" %}</skill>
         </category>
     </skills>
     <attributes>
         <attribute>{% trans "Autonomie" %}</attribute>
-        <attribute>{% trans "Capacité d'écoute et de compréhension" %}</attribute>
-        <attribute>{% trans "Travail d'équipe" %}</attribute>
+        <attribute>{% trans "Compréhension rapide" %}</attribute>
+        <attribute>{% trans "Rigueur" %}</attribute>
     </attributes>
     <interests>
         <interest>{% trans "Basketball 🏀" %}</interest>
@@ -122,5 +123,7 @@
     <links>
         <link>https://github.com/AloyseSECK</link>
         <link>https://www.linkedin.com/in/aloyse-maliam-seck/</link>
+        <link>https://aloyseseck.github.io/theMovieDataBaseProject/</link>
+        <link>https://aloyse-portfolio.vercel.app/</link>
     </links>
 </resume>

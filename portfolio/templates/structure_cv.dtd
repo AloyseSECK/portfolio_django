@@ -1,5 +1,5 @@
 <!ELEMENT resume (personalInfo, objective, projects, education, languages, skills, attributes, interests, links)>
-<!ELEMENT personalInfo (name, title, contact, availability, age)>
+<!ELEMENT personalInfo (name, title, contact, availability)>
 <!ELEMENT contact (phone, email, location)>
 <!ELEMENT objective (#PCDATA | duration)*>
 <!ELEMENT projects (project+)>

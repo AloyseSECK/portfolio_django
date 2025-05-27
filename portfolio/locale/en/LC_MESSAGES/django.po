@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-27 11:57+0200\n"
+"POT-Creation-Date: 2025-05-27 13:17+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English <en@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: portfolio/templates/header.html:17
 msgid "Accueil"
 msgstr "Home"
@@ -50,7 +51,8 @@ msgid ""
 "Je suis étudiant en école d'ingénieur en Informatique. J'aime apprendre de "
 "nouvelles technologies et résoudre des problèmes."
 msgstr ""
-"I am a computer engineering student. I enjoy learning new technologies and solving problems."
+"I am a computer engineering student. I enjoy learning new technologies and "
+"solving problems."
 
 #: portfolio/templates/home.html:57
 msgid "Vidéo"
@@ -88,128 +90,136 @@ msgstr "95330 DOMONT"
 msgid "Disponibilité"
 msgstr "Availability"
 
-#: portfolio/templates/transformed_resume.html:36
+#: portfolio/templates/transformed_resume.html:32
+msgid "Dès Octobre 2025"
+msgstr "October 2025"
+
+#: portfolio/templates/transformed_resume.html:35
 msgid "Objectif"
 msgstr "Objective"
 
-#: portfolio/templates/transformed_resume.html:37
+#: portfolio/templates/transformed_resume.html:36
 msgid "Alternant DevOps - Cloud chez INSERM"
 msgstr "DevOps - Cloud Intern at INSERM"
 
-#: portfolio/templates/transformed_resume.html:37
+#: portfolio/templates/transformed_resume.html:36
 msgid "Octobre 2023 / Août 2025"
 msgstr "October 2023 / August 2025"
 
-#: portfolio/templates/transformed_resume.html:40
+#: portfolio/templates/transformed_resume.html:39
 msgid "Projets"
 msgstr "Projects"
 
-#: portfolio/templates/transformed_resume.html:42
-#: portfolio/templates/transformed_resume.html:52
-#: portfolio/templates/transformed_resume.html:62
+#: portfolio/templates/transformed_resume.html:41
+#: portfolio/templates/transformed_resume.html:50
+#: portfolio/templates/transformed_resume.html:60
 msgid "Titre"
 msgstr "Title"
 
-#: portfolio/templates/transformed_resume.html:42
+#: portfolio/templates/transformed_resume.html:41
 msgid "SITE WEB PORTFOLIO"
 msgstr "PORTFOLIO WEBSITE"
+
+#: portfolio/templates/transformed_resume.html:42
+#: portfolio/templates/transformed_resume.html:52
+#: portfolio/templates/transformed_resume.html:61
+msgid "Etablissement"
+msgstr "Institution"
+
+#: portfolio/templates/transformed_resume.html:42
+msgid "Ecole d'Ingénieur Sup Galilée"
+msgstr "Sup Galilée engineering School"
 
 #: portfolio/templates/transformed_resume.html:43
 #: portfolio/templates/transformed_resume.html:54
 #: portfolio/templates/transformed_resume.html:63
-msgid "Etablissement"
-msgstr "Institution"
-
-#: portfolio/templates/transformed_resume.html:45
-#: portfolio/templates/transformed_resume.html:56
-#: portfolio/templates/transformed_resume.html:65
 msgid "Date"
 msgstr "Date"
 
-#: portfolio/templates/transformed_resume.html:45
+#: portfolio/templates/transformed_resume.html:43
 msgid "Avril 2024"
 msgstr "April 2024"
+
+#: portfolio/templates/transformed_resume.html:44
+#: portfolio/templates/transformed_resume.html:55
+#: portfolio/templates/transformed_resume.html:64
+msgid "Description"
+msgstr "Description"
 
 #: portfolio/templates/transformed_resume.html:46
 #: portfolio/templates/transformed_resume.html:57
 #: portfolio/templates/transformed_resume.html:66
-msgid "Description"
-msgstr "Description"
-
-#: portfolio/templates/transformed_resume.html:48
-#: portfolio/templates/transformed_resume.html:59
-#: portfolio/templates/transformed_resume.html:68
 msgid "Outils"
 msgstr "Tools"
 
-#: portfolio/templates/transformed_resume.html:48
+#: portfolio/templates/transformed_resume.html:46
 msgid "Visual Studio Code - HTML - CSS - Django"
 msgstr "Visual Studio Code - HTML - CSS - Django"
 
-#: portfolio/templates/transformed_resume.html:52
+#: portfolio/templates/transformed_resume.html:50
 msgid "THE MOVIE DB - SITE WEB VITRINE CINÉMA"
 msgstr "THE MOVIE DB - MOVIE SHOWCASE WEBSITE"
 
-#: portfolio/templates/transformed_resume.html:56
+#: portfolio/templates/transformed_resume.html:54
 msgid "Novembre 2023"
 msgstr "November 2023"
 
-#: portfolio/templates/transformed_resume.html:59
+#: portfolio/templates/transformed_resume.html:57
 msgid "Visual Studio Code"
 msgstr "Visual Studio Code"
 
-#: portfolio/templates/transformed_resume.html:62
+#: portfolio/templates/transformed_resume.html:60
 msgid "LEARNING MACHINE MENACE"
 msgstr "LEARNING MACHINE MENACE"
 
-#: portfolio/templates/transformed_resume.html:65
+#: portfolio/templates/transformed_resume.html:63
 msgid "Décembre 2021 / Janvier 2022"
 msgstr "December 2021 / January 2022"
 
-#: portfolio/templates/transformed_resume.html:68
+#: portfolio/templates/transformed_resume.html:66
 msgid "Langage C"
 msgstr "C Language"
 
-#: portfolio/templates/transformed_resume.html:72
+#: portfolio/templates/transformed_resume.html:70
 msgid "Langues"
 msgstr "Languages"
 
-#: portfolio/templates/transformed_resume.html:74
-#: portfolio/templates/transformed_resume.html:78
-#: portfolio/templates/transformed_resume.html:82
+#: portfolio/templates/transformed_resume.html:72
+#: portfolio/templates/transformed_resume.html:76
+#: portfolio/templates/transformed_resume.html:80
 msgid "Langue"
 msgstr "Language"
 
-#: portfolio/templates/transformed_resume.html:74
+#: portfolio/templates/transformed_resume.html:72
 msgid "FRANÇAIS"
 msgstr "FRENCH"
 
-#: portfolio/templates/transformed_resume.html:75
-#: portfolio/templates/transformed_resume.html:79
-#: portfolio/templates/transformed_resume.html:83
+#: portfolio/templates/transformed_resume.html:73
+#: portfolio/templates/transformed_resume.html:77
+#: portfolio/templates/transformed_resume.html:81
 msgid "Niveau"
 msgstr "Level"
 
-#: portfolio/templates/transformed_resume.html:75
+#: portfolio/templates/transformed_resume.html:73
 msgid "Avancé"
 msgstr "Advanced"
 
-#: portfolio/templates/transformed_resume.html:78
+#: portfolio/templates/transformed_resume.html:76
 msgid "ANGLAIS"
 msgstr "ENGLISH"
 
-#: portfolio/templates/transformed_resume.html:79
+#: portfolio/templates/transformed_resume.html:77
 msgid "Niveau B2 (TOEIC)"
 msgstr "Level B2 (TOEIC)"
 
-#: portfolio/templates/transformed_resume.html:82
+#: portfolio/templates/transformed_resume.html:80
 msgid "WOLOF"
 msgstr "WOLOF"
 
-#: portfolio/templates/transformed_resume.html:83
+#: portfolio/templates/transformed_resume.html:81
 msgid "Langue maternelle"
 msgstr "Mother tongue"
 
-#: portfolio/templates/transformed_resume.html:87
+#: portfolio/templates/transformed_resume.html:85
 msgid "Liens utiles"
 msgstr "Useful Links"

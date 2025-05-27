@@ -1,143 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-27 13:21+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: portfolio/templates/header.html:17
 msgid "Accueil"
 msgstr "Inicio"
 
+#: portfolio/templates/header.html:20 portfolio/templates/home.html:52
 msgid "CV"
-msgstr "Currículum"
+msgstr "CV"
 
+#: portfolio/templates/header.html:23 portfolio/templates/home.html:62
 msgid "Contact"
 msgstr "Contacto"
 
+#: portfolio/templates/header.html:52
 msgid "Contactez moi"
 msgstr "Contáctame"
 
+#: portfolio/templates/home.html:10
 msgid "Portfolio"
 msgstr "Portafolio"
 
+#: portfolio/templates/home.html:34
 msgid "Salut"
 msgstr "Hola"
 
+#: portfolio/templates/home.html:39
 msgid "A propos de moi"
 msgstr "Sobre mí"
 
-msgid "Je suis étudiant en école d'ingénieur en Informatique. J'aime apprendre de nouvelles technologies et résoudre des problèmes."
-msgstr "Soy estudiante de ingeniería informática. Me gusta aprender nuevas tecnologías y resolver problemas."
+#: portfolio/templates/home.html:44
+msgid ""
+"Je suis étudiant en école d'ingénieur en Informatique. J'aime apprendre de "
+"nouvelles technologies et résoudre des problèmes."
+msgstr ""
+"Soy estudiante de ingeniería informática. Me gusta aprender nuevas tecnologías y resolver problemas."
 
+#: portfolio/templates/home.html:57
 msgid "Vidéo"
 msgstr "Vídeo"
 
+#: portfolio/templates/transformed_resume.html:7
 msgid "Portfolio - Aloyse Maliam SECK"
 msgstr "Portafolio - Aloyse Maliam SECK"
 
+#: portfolio/templates/transformed_resume.html:26
 msgid "SECK Aloyse Maliam"
 msgstr "SECK Aloyse Maliam"
 
+#: portfolio/templates/transformed_resume.html:27
 msgid "INGÉNIEUR DEVOPS"
 msgstr "INGENIERO DEVOPS"
 
+#: portfolio/templates/transformed_resume.html:29
 msgid "Téléphone"
 msgstr "Teléfono"
 
+#: portfolio/templates/transformed_resume.html:30
 msgid "Adresse Email"
 msgstr "Correo electrónico"
 
+#: portfolio/templates/transformed_resume.html:31
 msgid "Adresse"
 msgstr "Dirección"
 
+#: portfolio/templates/transformed_resume.html:31
 msgid "95330 DOMONT"
 msgstr "95330 DOMONT"
 
+#: portfolio/templates/transformed_resume.html:32
 msgid "Disponibilité"
 msgstr "Disponibilidad"
 
+#: portfolio/templates/transformed_resume.html:32
+msgid "Dès Octobre 2025"
+msgstr "A partir de octubre de 2025"
+
+#: portfolio/templates/transformed_resume.html:35
 msgid "Objectif"
 msgstr "Objetivo"
 
+#: portfolio/templates/transformed_resume.html:36
 msgid "Alternant DevOps - Cloud chez INSERM"
 msgstr "Aprendiz DevOps - Cloud en INSERM"
 
+#: portfolio/templates/transformed_resume.html:36
 msgid "Octobre 2023 / Août 2025"
 msgstr "Octubre 2023 / Agosto 2025"
 
+#: portfolio/templates/transformed_resume.html:39
 msgid "Projets"
 msgstr "Proyectos"
 
+#: portfolio/templates/transformed_resume.html:41
+#: portfolio/templates/transformed_resume.html:50
+#: portfolio/templates/transformed_resume.html:60
 msgid "Titre"
 msgstr "Título"
 
+#: portfolio/templates/transformed_resume.html:41
 msgid "SITE WEB PORTFOLIO"
-msgstr "SITIO WEB PORTAFOLIO"
+msgstr "SITIO WEB DE PORTAFOLIO"
 
+#: portfolio/templates/transformed_resume.html:42
+#: portfolio/templates/transformed_resume.html:52
+#: portfolio/templates/transformed_resume.html:61
 msgid "Etablissement"
 msgstr "Institución"
 
+#: portfolio/templates/transformed_resume.html:42
+msgid "Ecole d'Ingénieur Sup Galilée"
+msgstr "Escuela de Ingeniería Sup Galilée"
+
+#: portfolio/templates/transformed_resume.html:43
+#: portfolio/templates/transformed_resume.html:54
+#: portfolio/templates/transformed_resume.html:63
 msgid "Date"
 msgstr "Fecha"
 
+#: portfolio/templates/transformed_resume.html:43
 msgid "Avril 2024"
 msgstr "Abril 2024"
 
+#: portfolio/templates/transformed_resume.html:44
+#: portfolio/templates/transformed_resume.html:55
+#: portfolio/templates/transformed_resume.html:64
 msgid "Description"
 msgstr "Descripción"
 
-msgid "Création d’un portfolio multilingue intégrant mon CV, mettant en valeur mes compétences et réalisations."
-msgstr "Creación de un portafolio multilingüe integrando mi CV, destacando mis competencias y logros."
-
+#: portfolio/templates/transformed_resume.html:46
+#: portfolio/templates/transformed_resume.html:57
+#: portfolio/templates/transformed_resume.html:66
 msgid "Outils"
 msgstr "Herramientas"
 
+#: portfolio/templates/transformed_resume.html:46
 msgid "Visual Studio Code - HTML - CSS - Django"
 msgstr "Visual Studio Code - HTML - CSS - Django"
 
+#: portfolio/templates/transformed_resume.html:50
 msgid "THE MOVIE DB - SITE WEB VITRINE CINÉMA"
-msgstr "THE MOVIE DB - SITIO WEB VITRINA DE CINE"
+msgstr "THE MOVIE DB - SITIO WEB DE CINE"
 
+#: portfolio/templates/transformed_resume.html:54
 msgid "Novembre 2023"
 msgstr "Noviembre 2023"
 
-msgid "Développé en équipe de 2 étudiants - React - TypeScript - HTML - CSS"
-msgstr "Desarrollado en equipo de 2 estudiantes - React - TypeScript - HTML - CSS"
-
+#: portfolio/templates/transformed_resume.html:57
 msgid "Visual Studio Code"
 msgstr "Visual Studio Code"
 
+#: portfolio/templates/transformed_resume.html:60
 msgid "LEARNING MACHINE MENACE"
 msgstr "LEARNING MACHINE MENACE"
 
+#: portfolio/templates/transformed_resume.html:63
 msgid "Décembre 2021 / Janvier 2022"
 msgstr "Diciembre 2021 / Enero 2022"
 
-msgid "IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants - Développé en C"
-msgstr "IA que aprende a jugar al tres en raya - Realizado en equipo de 3 estudiantes - Desarrollado en C"
-
+#: portfolio/templates/transformed_resume.html:66
 msgid "Langage C"
 msgstr "Lenguaje C"
 
+#: portfolio/templates/transformed_resume.html:70
 msgid "Langues"
 msgstr "Idiomas"
 
+#: portfolio/templates/transformed_resume.html:72
+#: portfolio/templates/transformed_resume.html:76
+#: portfolio/templates/transformed_resume.html:80
 msgid "Langue"
 msgstr "Idioma"
 
+#: portfolio/templates/transformed_resume.html:72
 msgid "FRANÇAIS"
 msgstr "FRANCÉS"
 
+#: portfolio/templates/transformed_resume.html:73
+#: portfolio/templates/transformed_resume.html:77
+#: portfolio/templates/transformed_resume.html:81
 msgid "Niveau"
 msgstr "Nivel"
 
+#: portfolio/templates/transformed_resume.html:73
 msgid "Avancé"
 msgstr "Avanzado"
 
+#: portfolio/templates/transformed_resume.html:76
 msgid "ANGLAIS"
 msgstr "INGLÉS"
 
+#: portfolio/templates/transformed_resume.html:77
 msgid "Niveau B2 (TOEIC)"
 msgstr "Nivel B2 (TOEIC)"
 
+#: portfolio/templates/transformed_resume.html:80
 msgid "WOLOF"
 msgstr "WOLOF"
 
+#: portfolio/templates/transformed_resume.html:81
 msgid "Langue maternelle"
 msgstr "Lengua materna"
 
+#: portfolio/templates/transformed_resume.html:85
 msgid "Liens utiles"
 msgstr "Enlaces útiles"

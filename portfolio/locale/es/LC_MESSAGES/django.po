@@ -1,0 +1,143 @@
+msgid "Accueil"
+msgstr "Inicio"
+
+msgid "CV"
+msgstr "Currículum"
+
+msgid "Contact"
+msgstr "Contacto"
+
+msgid "Contactez moi"
+msgstr "Contáctame"
+
+msgid "Portfolio"
+msgstr "Portafolio"
+
+msgid "Salut"
+msgstr "Hola"
+
+msgid "A propos de moi"
+msgstr "Sobre mí"
+
+msgid "Je suis étudiant en école d'ingénieur en Informatique. J'aime apprendre de nouvelles technologies et résoudre des problèmes."
+msgstr "Soy estudiante de ingeniería informática. Me gusta aprender nuevas tecnologías y resolver problemas."
+
+msgid "Vidéo"
+msgstr "Vídeo"
+
+msgid "Portfolio - Aloyse Maliam SECK"
+msgstr "Portafolio - Aloyse Maliam SECK"
+
+msgid "SECK Aloyse Maliam"
+msgstr "SECK Aloyse Maliam"
+
+msgid "INGÉNIEUR DEVOPS"
+msgstr "INGENIERO DEVOPS"
+
+msgid "Téléphone"
+msgstr "Teléfono"
+
+msgid "Adresse Email"
+msgstr "Correo electrónico"
+
+msgid "Adresse"
+msgstr "Dirección"
+
+msgid "95330 DOMONT"
+msgstr "95330 DOMONT"
+
+msgid "Disponibilité"
+msgstr "Disponibilidad"
+
+msgid "Objectif"
+msgstr "Objetivo"
+
+msgid "Alternant DevOps - Cloud chez INSERM"
+msgstr "Aprendiz DevOps - Cloud en INSERM"
+
+msgid "Octobre 2023 / Août 2025"
+msgstr "Octubre 2023 / Agosto 2025"
+
+msgid "Projets"
+msgstr "Proyectos"
+
+msgid "Titre"
+msgstr "Título"
+
+msgid "SITE WEB PORTFOLIO"
+msgstr "SITIO WEB PORTAFOLIO"
+
+msgid "Etablissement"
+msgstr "Institución"
+
+msgid "Date"
+msgstr "Fecha"
+
+msgid "Avril 2024"
+msgstr "Abril 2024"
+
+msgid "Description"
+msgstr "Descripción"
+
+msgid "Création d’un portfolio multilingue intégrant mon CV, mettant en valeur mes compétences et réalisations."
+msgstr "Creación de un portafolio multilingüe integrando mi CV, destacando mis competencias y logros."
+
+msgid "Outils"
+msgstr "Herramientas"
+
+msgid "Visual Studio Code - HTML - CSS - Django"
+msgstr "Visual Studio Code - HTML - CSS - Django"
+
+msgid "THE MOVIE DB - SITE WEB VITRINE CINÉMA"
+msgstr "THE MOVIE DB - SITIO WEB VITRINA DE CINE"
+
+msgid "Novembre 2023"
+msgstr "Noviembre 2023"
+
+msgid "Développé en équipe de 2 étudiants - React - TypeScript - HTML - CSS"
+msgstr "Desarrollado en equipo de 2 estudiantes - React - TypeScript - HTML - CSS"
+
+msgid "Visual Studio Code"
+msgstr "Visual Studio Code"
+
+msgid "LEARNING MACHINE MENACE"
+msgstr "LEARNING MACHINE MENACE"
+
+msgid "Décembre 2021 / Janvier 2022"
+msgstr "Diciembre 2021 / Enero 2022"
+
+msgid "IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants - Développé en C"
+msgstr "IA que aprende a jugar al tres en raya - Realizado en equipo de 3 estudiantes - Desarrollado en C"
+
+msgid "Langage C"
+msgstr "Lenguaje C"
+
+msgid "Langues"
+msgstr "Idiomas"
+
+msgid "Langue"
+msgstr "Idioma"
+
+msgid "FRANÇAIS"
+msgstr "FRANCÉS"
+
+msgid "Niveau"
+msgstr "Nivel"
+
+msgid "Avancé"
+msgstr "Avanzado"
+
+msgid "ANGLAIS"
+msgstr "INGLÉS"
+
+msgid "Niveau B2 (TOEIC)"
+msgstr "Nivel B2 (TOEIC)"
+
+msgid "WOLOF"
+msgstr "WOLOF"
+
+msgid "Langue maternelle"
+msgstr "Lengua materna"
+
+msgid "Liens utiles"
+msgstr "Enlaces útiles"

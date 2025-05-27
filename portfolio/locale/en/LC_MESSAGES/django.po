@@ -8,35 +8,30 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-21 14:46+0200\n"
+"POT-Creation-Date: 2025-05-27 11:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language-Team: English <en@li.org>\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-
 #: portfolio/templates/header.html:17
-#: portfolio/templates/transformed_resume.html:27
 msgid "Accueil"
 msgstr "Home"
 
 #: portfolio/templates/header.html:20 portfolio/templates/home.html:52
-#: portfolio/templates/transformed_resume.html:30
 msgid "CV"
 msgstr "Resume"
 
 #: portfolio/templates/header.html:23 portfolio/templates/home.html:62
-#: portfolio/templates/transformed_resume.html:33
 msgid "Contact"
 msgstr "Contact"
 
 #: portfolio/templates/header.html:52
-#: portfolio/templates/transformed_resume.html:58
 msgid "Contactez moi"
-msgstr "Contact me"
+msgstr "Contact Me"
 
 #: portfolio/templates/home.html:10
 msgid "Portfolio"
@@ -44,442 +39,177 @@ msgstr "Portfolio"
 
 #: portfolio/templates/home.html:34
 msgid "Salut"
-msgstr "Hello"
+msgstr "Hi"
 
 #: portfolio/templates/home.html:39
 msgid "A propos de moi"
-msgstr "About me"
+msgstr "About Me"
 
 #: portfolio/templates/home.html:44
 msgid ""
 "Je suis étudiant en école d'ingénieur en Informatique. J'aime apprendre de "
 "nouvelles technologies et résoudre des problèmes."
 msgstr ""
-"I am a computer engineering student. I enjoy learning new technologies and "
-"solving problems."
+"I am a computer engineering student. I enjoy learning new technologies and solving problems."
 
 #: portfolio/templates/home.html:57
 msgid "Vidéo"
 msgstr "Video"
 
-#: portfolio/templates/transformed_resume.html:100
-msgid "Projets"
-msgstr "Projects"
-
-#: portfolio/templates/transformed_resume.html:6
-#, fuzzy
-#| msgid "SECK Aloyse Maliam"
+#: portfolio/templates/transformed_resume.html:7
 msgid "Portfolio - Aloyse Maliam SECK"
-msgstr "SECK Aloyse Maliam"
+msgstr "Portfolio - Aloyse Maliam SECK"
 
-#: portfolio/templates/transformed_resume.html:87
+#: portfolio/templates/transformed_resume.html:26
 msgid "SECK Aloyse Maliam"
 msgstr "SECK Aloyse Maliam"
 
-#: portfolio/templates/transformed_resume.html:88
-msgid "INGENIEUR INFORMATIQUE EN ALTERNANCE"
-msgstr "COMPUTER ENGINEER IN APPRENTICESHIP"
+#: portfolio/templates/transformed_resume.html:27
+msgid "INGÉNIEUR DEVOPS"
+msgstr "DEVOPS ENGINEER"
 
-#: portfolio/templates/transformed_resume.html:90
+#: portfolio/templates/transformed_resume.html:29
 msgid "Téléphone"
-msgstr "Phone"
+msgstr "Phone number"
 
-#: portfolio/templates/transformed_resume.html:90
+#: portfolio/templates/transformed_resume.html:30
 msgid "Adresse Email"
 msgstr "Email Address"
 
-#: portfolio/templates/transformed_resume.html:90
+#: portfolio/templates/transformed_resume.html:31
 msgid "Adresse"
 msgstr "Address"
 
-#: portfolio/templates/transformed_resume.html:90
+#: portfolio/templates/transformed_resume.html:31
 msgid "95330 DOMONT"
 msgstr "95330 DOMONT"
 
-#: portfolio/templates/transformed_resume.html:90
+#: portfolio/templates/transformed_resume.html:32
 msgid "Disponibilité"
 msgstr "Availability"
 
-#: portfolio/templates/transformed_resume.html:90
-msgid "Disponibilité : Dès septembre 2023"
-msgstr "Availability: From September 2023"
-
-#: portfolio/templates/transformed_resume.html:90
-msgid "Age"
-msgstr "Age"
-
-#: portfolio/templates/transformed_resume.html:90
-msgid "22 ans"
-msgstr "22 years old"
-
-#: portfolio/templates/transformed_resume.html:93
+#: portfolio/templates/transformed_resume.html:36
 msgid "Objectif"
 msgstr "Objective"
 
-#: portfolio/templates/transformed_resume.html:95
-msgid "A la recherche d'un contrat d'apprentissage de 24 mois"
-msgstr "Looking for a 24-month apprenticeship contract"
+#: portfolio/templates/transformed_resume.html:37
+msgid "Alternant DevOps - Cloud chez INSERM"
+msgstr "DevOps - Cloud Intern at INSERM"
 
-#: portfolio/templates/transformed_resume.html:96
-#: portfolio/templates/transformed_resume.html:97
-msgid "Rythme : Un mois sur deux en entreprise"
-msgstr "Rhythm: One month on and one month off in the company"
+#: portfolio/templates/transformed_resume.html:37
+msgid "Octobre 2023 / Août 2025"
+msgstr "October 2023 / August 2025"
 
-#: portfolio/templates/transformed_resume.html:102
-#: portfolio/templates/transformed_resume.html:109
-#: portfolio/templates/transformed_resume.html:116
-#: portfolio/templates/transformed_resume.html:123
+#: portfolio/templates/transformed_resume.html:40
+msgid "Projets"
+msgstr "Projects"
+
+#: portfolio/templates/transformed_resume.html:42
+#: portfolio/templates/transformed_resume.html:52
+#: portfolio/templates/transformed_resume.html:62
 msgid "Titre"
 msgstr "Title"
 
-#: portfolio/templates/transformed_resume.html:102
-msgid "DÉVELOPPEMENT WEB - SITE E-COMMERCE"
-msgstr "WEB DEVELOPMENT - E-COMMERCE WEBSITE"
+#: portfolio/templates/transformed_resume.html:42
+msgid "SITE WEB PORTFOLIO"
+msgstr "PORTFOLIO WEBSITE"
 
-#: portfolio/templates/transformed_resume.html:103
-#: portfolio/templates/transformed_resume.html:110
-#: portfolio/templates/transformed_resume.html:117
-#: portfolio/templates/transformed_resume.html:124
-#: portfolio/templates/transformed_resume.html:134
-#: portfolio/templates/transformed_resume.html:139
-#: portfolio/templates/transformed_resume.html:144
+#: portfolio/templates/transformed_resume.html:43
+#: portfolio/templates/transformed_resume.html:54
+#: portfolio/templates/transformed_resume.html:63
 msgid "Etablissement"
 msgstr "Institution"
 
-#: portfolio/templates/transformed_resume.html:103
-#: portfolio/templates/transformed_resume.html:117
-#: portfolio/templates/transformed_resume.html:124
-msgid "Ecole d'Ingénieur Sup Galilée"
-msgstr "Sup Galilée Engineering School"
-
-#: portfolio/templates/transformed_resume.html:104
-#: portfolio/templates/transformed_resume.html:111
-#: portfolio/templates/transformed_resume.html:118
-#: portfolio/templates/transformed_resume.html:125
-#: portfolio/templates/transformed_resume.html:135
-#: portfolio/templates/transformed_resume.html:140
-#: portfolio/templates/transformed_resume.html:145
+#: portfolio/templates/transformed_resume.html:45
+#: portfolio/templates/transformed_resume.html:56
+#: portfolio/templates/transformed_resume.html:65
 msgid "Date"
 msgstr "Date"
 
-#: portfolio/templates/transformed_resume.html:105
-#: portfolio/templates/transformed_resume.html:112
-#: portfolio/templates/transformed_resume.html:119
-#: portfolio/templates/transformed_resume.html:126
+#: portfolio/templates/transformed_resume.html:45
+msgid "Avril 2024"
+msgstr "April 2024"
+
+#: portfolio/templates/transformed_resume.html:46
+#: portfolio/templates/transformed_resume.html:57
+#: portfolio/templates/transformed_resume.html:66
 msgid "Description"
 msgstr "Description"
 
-#: portfolio/templates/transformed_resume.html:105
-msgid ""
-"Réalisé en équipe de 5 étudiants au niveau académique - Développé en PHP - "
-"Java Script - Html et CSS"
-msgstr ""
-"Conducted by a team of 5 students at the academic level - Developed in PHP - "
-"JavaScript - HTML and CSS"
-
-#: portfolio/templates/transformed_resume.html:106
-#: portfolio/templates/transformed_resume.html:113
-#: portfolio/templates/transformed_resume.html:120
-#: portfolio/templates/transformed_resume.html:127
+#: portfolio/templates/transformed_resume.html:48
+#: portfolio/templates/transformed_resume.html:59
+#: portfolio/templates/transformed_resume.html:68
 msgid "Outils"
 msgstr "Tools"
 
-#: portfolio/templates/transformed_resume.html:106
-msgid "Wamp/PHPmyadmin - SQL"
-msgstr "Wamp/PHPmyadmin - SQL"
+#: portfolio/templates/transformed_resume.html:48
+msgid "Visual Studio Code - HTML - CSS - Django"
+msgstr "Visual Studio Code - HTML - CSS - Django"
 
-#: portfolio/templates/transformed_resume.html:109
-msgid "TRANSPORT MONITORING - GPS"
-msgstr "TRANSPORT MONITORING - GPS"
+#: portfolio/templates/transformed_resume.html:52
+msgid "THE MOVIE DB - SITE WEB VITRINE CINÉMA"
+msgstr "THE MOVIE DB - MOVIE SHOWCASE WEBSITE"
 
-#: portfolio/templates/transformed_resume.html:110
-msgid "Classes préparatoires Maristes-Sénégal"
-msgstr "Preparatory Classes Maristes-Senegal"
+#: portfolio/templates/transformed_resume.html:56
+msgid "Novembre 2023"
+msgstr "November 2023"
 
-#: portfolio/templates/transformed_resume.html:111
-msgid "Janvier 2021 / Juin 2021"
-msgstr "January 2021 / June 2021"
-
-#: portfolio/templates/transformed_resume.html:112
-msgid ""
-"Réalisation d'un système de suivi des bus de l'université via GPS - "
-"Développé en python"
-msgstr ""
-"Development of a bus tracking system for the university via GPS - Developed "
-"in Python"
-
-#: portfolio/templates/transformed_resume.html:113
-msgid "Python3 - SQL alchemy - Flask - Requests - Raspberry Pi"
-msgstr "Python3 - SQLAlchemy - Flask - Requests - Raspberry Pi"
-
-#: portfolio/templates/transformed_resume.html:116
-msgid "LEARNING MACHINE MENACE"
-msgstr "LEARNING MACHINE MENACE"
-
-#: portfolio/templates/transformed_resume.html:118
-msgid "Décembre 2021 / Janvier 2022"
-msgstr "December 2021 / January 2022"
-
-#: portfolio/templates/transformed_resume.html:119
-msgid ""
-"IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants au "
-"niveau académique - Développé en C"
-msgstr ""
-"AI that learns to play tic-tac-toe - Conducted by a team of 3 students at "
-"the academic level - Developed in C"
-
-#: portfolio/templates/transformed_resume.html:120
-msgid "Langage C"
-msgstr "C Language"
-
-#: portfolio/templates/transformed_resume.html:123
-msgid "DSP CALCULATOR"
-msgstr "DSP CALCULATOR"
-
-#: portfolio/templates/transformed_resume.html:125
-msgid "Mars 2022"
-msgstr "March 2022"
-
-#: portfolio/templates/transformed_resume.html:126
-msgid "Modélisation d'un système de type factory builder - Développé en Java"
-msgstr "Modeling of a factory builder type system - Developed in Java"
-
-#: portfolio/templates/transformed_resume.html:127
-#: portfolio/templates/transformed_resume.html:164
-msgid "Java"
-msgstr "Java"
-
-#: portfolio/templates/transformed_resume.html:131
-msgid "Cursus Scolaire"
-msgstr "Education"
-
-#: portfolio/templates/transformed_resume.html:133
-#: portfolio/templates/transformed_resume.html:138
-#: portfolio/templates/transformed_resume.html:143
-msgid "Diplôme"
-msgstr "Degree"
-
-#: portfolio/templates/transformed_resume.html:133
-msgid "DIPLOME D'INGENIEUR INFORMATIQUE"
-msgstr "COMPUTER ENGINEERING DEGREE"
-
-#: portfolio/templates/transformed_resume.html:134
-msgid "Université Sorbonne Paris Nord, Villetaneuse - France"
-msgstr "Sorbonne Paris North University, Villetaneuse - France"
-
-#: portfolio/templates/transformed_resume.html:135
-msgid "2021 / 2025"
-msgstr "2021 / 2025"
-
-#: portfolio/templates/transformed_resume.html:138
-msgid "CLASSE PRÉPARATOIRE"
-msgstr "PREPARATORY CLASS"
-
-#: portfolio/templates/transformed_resume.html:139
-msgid "Institut Mariste Post-BAC, Dakar - Sénégal"
-msgstr "Marist Post-BAC Institute, Dakar - Senegal"
-
-#: portfolio/templates/transformed_resume.html:140
-msgid "Septembre 2019 / Juin 2021"
-msgstr "September 2019 / June 2021"
-
-#: portfolio/templates/transformed_resume.html:143
-msgid "BACCALAURÉAT SCIENTIFIQUE"
-msgstr "SCIENTIFIC BACCALAUREATE"
-
-#: portfolio/templates/transformed_resume.html:144
-msgid "Ecole Privée Chez Etienne et Monique, Sénégal"
-msgstr "Private School Chez Etienne et Monique, Senegal"
-
-#: portfolio/templates/transformed_resume.html:145
-msgid "Juillet 2019"
-msgstr "July 2019"
-
-#: portfolio/templates/transformed_resume.html:149
-msgid "Langues"
-msgstr "Languages"
-
-#: portfolio/templates/transformed_resume.html:151
-#: portfolio/templates/transformed_resume.html:155
-msgid "Langue"
-msgstr "Language"
-
-#: portfolio/templates/transformed_resume.html:151
-msgid "ANGLAIS"
-msgstr "ENGLISH"
-
-#: portfolio/templates/transformed_resume.html:152
-#: portfolio/templates/transformed_resume.html:156
-msgid "Niveau"
-msgstr "Level"
-
-#: portfolio/templates/transformed_resume.html:152
-msgid "Niveau avancé"
-msgstr "Advanced level"
-
-#: portfolio/templates/transformed_resume.html:155
-msgid "WOLOF"
-msgstr "WOLOF"
-
-#: portfolio/templates/transformed_resume.html:156
-msgid "Langue maternelle"
-msgstr "Mother tongue"
-
-#: portfolio/templates/transformed_resume.html:160
-msgid "Compétences"
-msgstr "Skills"
-
-#: portfolio/templates/transformed_resume.html:162
-msgid "LANGAGES DE PROGRAMMATION"
-msgstr "PROGRAMMING LANGUAGES"
-
-#: portfolio/templates/transformed_resume.html:163
-msgid "Python"
-msgstr "Python"
-
-#: portfolio/templates/transformed_resume.html:165
-#, fuzzy
-#| msgid "CV"
-msgid "C"
-msgstr "C"
-
-#: portfolio/templates/transformed_resume.html:166
-msgid "Matlab"
-msgstr "Matlab"
-
-#: portfolio/templates/transformed_resume.html:169
-msgid "TECHNOLOGIES WEB"
-msgstr "WEB TECHNOLOGIES"
-
-#: portfolio/templates/transformed_resume.html:170
-msgid "JavaScript"
-msgstr "JavaScript"
-
-#: portfolio/templates/transformed_resume.html:171
-msgid "PHP"
-msgstr "PHP"
-
-#: portfolio/templates/transformed_resume.html:172
-msgid "HTML/CSS"
-msgstr "HTML/CSS"
-
-#: portfolio/templates/transformed_resume.html:173
-msgid "Django"
-msgstr "Django"
-
-#: portfolio/templates/transformed_resume.html:174
-msgid "Springboot"
-msgstr "Springboot"
-
-#: portfolio/templates/transformed_resume.html:177
-msgid "BASE DE DONNÉES"
-msgstr "DATABASES"
-
-#: portfolio/templates/transformed_resume.html:178
-msgid "SQL"
-msgstr "SQL"
-
-#: portfolio/templates/transformed_resume.html:179
-msgid "MySQL"
-msgstr "MySQL"
-
-#: portfolio/templates/transformed_resume.html:180
-msgid "SQLite"
-msgstr "SQLite"
-
-#: portfolio/templates/transformed_resume.html:183
-msgid "AUTRES"
-msgstr "OTHERS"
-
-#: portfolio/templates/transformed_resume.html:184
-msgid "Json"
-msgstr "JSON"
-
-#: portfolio/templates/transformed_resume.html:185
-msgid "UML"
-msgstr "UML"
-
-#: portfolio/templates/transformed_resume.html:186
-msgid "XML"
-msgstr "XML"
-
-#: portfolio/templates/transformed_resume.html:189
-msgid "OUTILS &amp; LOGICIELS"
-msgstr "TOOLS & SOFTWARE"
-
-#: portfolio/templates/transformed_resume.html:190
-msgid "Anaconda"
-msgstr "Anaconda"
-
-#: portfolio/templates/transformed_resume.html:191
-msgid "PyCharm"
-msgstr "PyCharm"
-
-#: portfolio/templates/transformed_resume.html:192
+#: portfolio/templates/transformed_resume.html:59
 msgid "Visual Studio Code"
 msgstr "Visual Studio Code"
 
-#: portfolio/templates/transformed_resume.html:193
-msgid "Git"
-msgstr "Git"
+#: portfolio/templates/transformed_resume.html:62
+msgid "LEARNING MACHINE MENACE"
+msgstr "LEARNING MACHINE MENACE"
 
-#: portfolio/templates/transformed_resume.html:194
-msgid "Github"
-msgstr "Github"
+#: portfolio/templates/transformed_resume.html:65
+msgid "Décembre 2021 / Janvier 2022"
+msgstr "December 2021 / January 2022"
 
-#: portfolio/templates/transformed_resume.html:195
-msgid "Eclipse"
-msgstr "Eclipse"
+#: portfolio/templates/transformed_resume.html:68
+msgid "Langage C"
+msgstr "C Language"
 
-#: portfolio/templates/transformed_resume.html:196
-msgid "WampServer"
-msgstr "WampServer"
+#: portfolio/templates/transformed_resume.html:72
+msgid "Langues"
+msgstr "Languages"
 
-#: portfolio/templates/transformed_resume.html:197
-msgid "Oracle"
-msgstr "Oracle"
+#: portfolio/templates/transformed_resume.html:74
+#: portfolio/templates/transformed_resume.html:78
+#: portfolio/templates/transformed_resume.html:82
+msgid "Langue"
+msgstr "Language"
 
-#: portfolio/templates/transformed_resume.html:198
-msgid "Pack Office"
-msgstr "Office Suite"
+#: portfolio/templates/transformed_resume.html:74
+msgid "FRANÇAIS"
+msgstr "FRENCH"
 
-#: portfolio/templates/transformed_resume.html:202
-msgid "Atouts"
-msgstr "Strengths"
+#: portfolio/templates/transformed_resume.html:75
+#: portfolio/templates/transformed_resume.html:79
+#: portfolio/templates/transformed_resume.html:83
+msgid "Niveau"
+msgstr "Level"
 
-#: portfolio/templates/transformed_resume.html:203
-msgid "Autonomie"
-msgstr "Autonomy"
+#: portfolio/templates/transformed_resume.html:75
+msgid "Avancé"
+msgstr "Advanced"
 
-#: portfolio/templates/transformed_resume.html:204
-msgid "Capacité d'écoute et de compréhension"
-msgstr "Listening and comprehension skills"
+#: portfolio/templates/transformed_resume.html:78
+msgid "ANGLAIS"
+msgstr "ENGLISH"
 
-#: portfolio/templates/transformed_resume.html:205
-msgid "Travail d'équipe"
-msgstr "Teamwork"
+#: portfolio/templates/transformed_resume.html:79
+msgid "Niveau B2 (TOEIC)"
+msgstr "Level B2 (TOEIC)"
 
-#: portfolio/templates/transformed_resume.html:208
-msgid "Centres d'intérêt"
-msgstr "Interests"
+#: portfolio/templates/transformed_resume.html:82
+msgid "WOLOF"
+msgstr "WOLOF"
 
-#: portfolio/templates/transformed_resume.html:209
-msgid "Basketball 🏀"
-msgstr "Basketball 🏀"
+#: portfolio/templates/transformed_resume.html:83
+msgid "Langue maternelle"
+msgstr "Mother tongue"
 
-#: portfolio/templates/transformed_resume.html:210
-msgid "Programmation 💻"
-msgstr "Programming 💻"
-
-#: portfolio/templates/transformed_resume.html:211
-msgid "Musique 🎵"
-msgstr "Music 🎵"
-
-#: portfolio/templates/transformed_resume.html:214
+#: portfolio/templates/transformed_resume.html:87
 msgid "Liens utiles"
 msgstr "Useful Links"
-
-#, fuzzy
-#~| msgid "Projets"
-#~ msgid "Projects"
-#~ msgstr "Projects"

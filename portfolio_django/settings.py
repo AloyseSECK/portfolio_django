@@ -111,7 +111,7 @@ LANGUAGE_CODE = 'fr'
 LANGUAGES = [
     ('fr', 'Français'),
     ('en', 'English'),
-    ('ru', 'Русский'),
+    ('es', 'Español'),
 ]
 TIME_ZONE = 'UTC'
 

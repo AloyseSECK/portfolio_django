@@ -48,10 +48,10 @@ msgstr "Sobre mí"
 
 #: portfolio/templates/home.html:44
 msgid ""
-"Je suis étudiant en école d'ingénieur en Informatique. J'aime apprendre de "
+"Je suis diplômé d'une école d'ingénieur en Informatique. J'aime apprendre de "
 "nouvelles technologies et résoudre des problèmes."
 msgstr ""
-"Soy estudiante de ingeniería informática. Me gusta aprender nuevas "
+"Soy graduado de una escuela de ingeniería informática. Me gusta aprender nuevas "
 "tecnologías y resolver problemas."
 
 #: portfolio/templates/home.html:57

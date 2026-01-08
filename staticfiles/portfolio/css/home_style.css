@@ -243,8 +243,8 @@ main.homepage {
     margin-bottom: 15px;
     transition: transform 0.7s ease; 
 }
-.col a {
-    text-decoration: none;
+.col-12 a {
+    text-decoration: none !important;
 }
 
 /* Increase circle on hover */

@@ -243,6 +243,12 @@ main.homepage {
     transform: scale(1.1);
 }
 
+@media (max-width: 768px) {
+    #circle1 {
+        background-color:  lawngreen !important;
+    }
+}
+
 
 /* -----------------------------BUTTON STYLE------------------------------- */
 button {

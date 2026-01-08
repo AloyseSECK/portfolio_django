@@ -4,6 +4,18 @@
     font-weight: bold;
 }
 
+.navbar .container-fluid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 772px) {
+    .navbar .container-fluid {
+        justify-content: center;
+    }
+}
+
 .header-brand {
     display: flex;
     align-items: center;
@@ -75,13 +87,11 @@ header {
 main.homepage {
     flex: 1;
     display: flex;
-    align-items: center;
     width: 100%;
     max-width: 1200px; 
     padding: 20px;
     box-sizing: border-box;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
 }
 
 #a-propos {
@@ -128,7 +138,7 @@ main.homepage {
 
 @media (max-width: 774px) {
     main.homepage {
-        margin-top: 50px;
+        margin-top: 6em;
     }
 
     .card {
@@ -142,7 +152,7 @@ main.homepage {
 
 @media (max-width: 531px) {
     main.homepage {
-        margin-top: 90px;
+        margin-top: 6em;
     }
 
     .card {
@@ -241,6 +251,13 @@ main.homepage {
 /* Increase circle on hover */
 .circle:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .circle.extended {
+        border-radius: 2em;
+        width: 100%;
+    }
 }
 
 

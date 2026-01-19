@@ -91,6 +91,7 @@ main.homepage {
     padding: 20px;
     box-sizing: border-box;
     justify-content: center;
+    align-items: center;
 }
 
 #a-propos {

@@ -1,2 +1,2 @@
-python3 manage.py collectstatic --noinput --yes
+python3 manage.py collectstatic --noinput --clear
 

@@ -124,6 +124,7 @@ main.homepage {
         width: 300px; 
     }
 
+
     .col-md-6 {
         flex: 0 0 100%;
         max-width: 100%;
@@ -219,6 +220,11 @@ main.homepage {
     }
 }
 
+@media (min-width: 992px) {
+    p.lead {
+        width: 50vw !important;
+    }    
+}
 
 
 #circle1 {

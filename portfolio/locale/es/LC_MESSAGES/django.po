@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 11:15+0100\n"
+"POT-Creation-Date: 2026-01-20 11:27+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
 "1 : 2;\n"
+
 #: portfolio/templates/header.html:17
 msgid "Accueil"
 msgstr "Inicio"
@@ -44,9 +45,12 @@ msgstr "Acerca de mí"
 
 #: portfolio/templates/home.html:44
 msgid ""
-"Je suis diplômé d'une école d'ingénieur en Informatique. J'aime apprendre de "
-"nouvelles technologies et résoudre des problèmes."
-msgstr "Soy graduado de una escuela de ingeniería informática. Me gusta aprender nuevas tecnologías y resolver problemas."
+"Ingénieur diplômé en Informatique, j'ai développé une expérience en DevOps "
+"et une forte appétence pour ses méthodologies. Aujourd'hui chargé de mission "
+"IA à l'Inserm, je travaille sur des projets mêlant automatisation et "
+"intelligence artificielle. J'aime concevoir des solutions fiables en "
+"combinant outils IA et pratiques DevOps."
+msgstr "Ingeniero titulado en Informática, he desarrollado experiencia en DevOps y un fuerte interés por sus metodologías. Actualmente, como responsable de misión de IA en el Inserm, trabajo en proyectos que combinan automatización e inteligencia artificial. Me gusta diseñar soluciones fiables combinando herramientas de IA y prácticas DevOps."
 
 #: portfolio/templates/home.html:52
 msgid "CV"
@@ -143,10 +147,16 @@ msgid "Description"
 msgstr "Descripción"
 
 #: portfolio/templates/transformed_resume.html:44
+#, fuzzy
+#| msgid ""
+#| "Création d'un portfolio multilingue intégrant mon CV, mettant en valeur "
+#| "mes compétences et réalisations."
 msgid ""
-"Création d'un portfolio multilingue intégrant mon CV, mettant en valeur mes "
+"Création d’un portfolio multilingue intégrant mon CV, mettant en valeur mes "
 "compétences et réalisations."
-msgstr "Creación de un portafolio multilingüe que integra mi CV, destacando mis habilidades y logros."
+msgstr ""
+"Creación de un portafolio multilingüe que integra mi CV, destacando mis "
+"habilidades y logros."
 
 #: portfolio/templates/transformed_resume.html:45
 #: portfolio/templates/transformed_resume.html:54
@@ -168,7 +178,8 @@ msgstr "Noviembre 2023"
 
 #: portfolio/templates/transformed_resume.html:53
 msgid "Développé en équipe de 2 étudiants - React - TypeScript - HTML - CSS"
-msgstr "Desarrollado por un equipo de 2 estudiantes - React - TypeScript - HTML - CSS"
+msgstr ""
+"Desarrollado por un equipo de 2 estudiantes - React - TypeScript - HTML - CSS"
 
 #: portfolio/templates/transformed_resume.html:54
 msgid "Visual Studio Code"
@@ -186,7 +197,9 @@ msgstr "Diciembre 2021 / Enero 2022"
 msgid ""
 "IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants - "
 "Développé en C"
-msgstr "IA que aprende a jugar al tres en raya - Realizado por un equipo de 3 estudiantes - Desarrollado en C"
+msgstr ""
+"IA que aprende a jugar al tres en raya - Realizado por un equipo de 3 "
+"estudiantes - Desarrollado en C"
 
 #: portfolio/templates/transformed_resume.html:61
 msgid "Langage C"
@@ -235,3 +248,10 @@ msgstr "Lengua Materna"
 #: portfolio/templates/transformed_resume.html:80
 msgid "Liens utiles"
 msgstr "Enlaces Útiles"
+
+#~ msgid ""
+#~ "Je suis diplômé d'une école d'ingénieur en Informatique. J'aime apprendre "
+#~ "de nouvelles technologies et résoudre des problèmes."
+#~ msgstr ""
+#~ "Soy graduado de una escuela de ingeniería informática. Me gusta aprender "
+#~ "nuevas tecnologías y resolver problemas."

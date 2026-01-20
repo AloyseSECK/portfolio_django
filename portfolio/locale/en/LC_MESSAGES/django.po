@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-01-19 11:15+0100\n"
+"POT-Creation-Date: 2026-01-20 11:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
 #: portfolio/templates/header.html:17
 msgid "Accueil"
 msgstr "Home"
@@ -43,9 +44,12 @@ msgstr "About Me"
 
 #: portfolio/templates/home.html:44
 msgid ""
-"Je suis diplômé d'une école d'ingénieur en Informatique. J'aime apprendre de "
-"nouvelles technologies et résoudre des problèmes."
-msgstr "I graduated from an engineering school in Computer Science. I enjoy learning new technologies and solving problems."
+"Ingénieur diplômé en Informatique, j'ai développé une expérience en DevOps "
+"et une forte appétence pour ses méthodologies. Aujourd'hui chargé de mission "
+"IA à l'Inserm, je travaille sur des projets mêlant automatisation et "
+"intelligence artificielle. J'aime concevoir des solutions fiables en "
+"combinant outils IA et pratiques DevOps."
+msgstr "As a graduate Computer Engineer, I have developed experience in DevOps and a strong interest in its methodologies. Currently serving as an AI project officer at Inserm, I work on projects combining automation and artificial intelligence. I enjoy designing reliable solutions by combining AI tools and DevOps practices."
 
 #: portfolio/templates/home.html:52
 msgid "CV"
@@ -142,10 +146,16 @@ msgid "Description"
 msgstr "Description"
 
 #: portfolio/templates/transformed_resume.html:44
+#, fuzzy
+#| msgid ""
+#| "Création d'un portfolio multilingue intégrant mon CV, mettant en valeur "
+#| "mes compétences et réalisations."
 msgid ""
-"Création d'un portfolio multilingue intégrant mon CV, mettant en valeur mes "
+"Création d’un portfolio multilingue intégrant mon CV, mettant en valeur mes "
 "compétences et réalisations."
-msgstr "Creation of a multilingual portfolio integrating my CV, showcasing my skills and achievements."
+msgstr ""
+"Creation of a multilingual portfolio integrating my CV, showcasing my skills "
+"and achievements."
 
 #: portfolio/templates/transformed_resume.html:45
 #: portfolio/templates/transformed_resume.html:54
@@ -185,7 +195,9 @@ msgstr "December 2021 / January 2022"
 msgid ""
 "IA qui apprend à jouer au morpion - Réalisé en équipe de 3 étudiants - "
 "Développé en C"
-msgstr "AI that learns to play tic-tac-toe - Developed by a team of 3 students - Developed in C"
+msgstr ""
+"AI that learns to play tic-tac-toe - Developed by a team of 3 students - "
+"Developed in C"
 
 #: portfolio/templates/transformed_resume.html:61
 msgid "Langage C"
@@ -234,3 +246,10 @@ msgstr "Native Language"
 #: portfolio/templates/transformed_resume.html:80
 msgid "Liens utiles"
 msgstr "Useful Links"
+
+#~ msgid ""
+#~ "Je suis diplômé d'une école d'ingénieur en Informatique. J'aime apprendre "
+#~ "de nouvelles technologies et résoudre des problèmes."
+#~ msgstr ""
+#~ "I graduated from an engineering school in Computer Science. I enjoy "
+#~ "learning new technologies and solving problems."

@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_)d^=@kj_vy=sl7*e++7cp-tl56d$xuysnn2ob_)w$hez-qd&3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 if not DEBUG:
     print("*********************************\n"*3)
     print("WARNING: DEBUG is set to False ! No static files will be served.\n"*3)

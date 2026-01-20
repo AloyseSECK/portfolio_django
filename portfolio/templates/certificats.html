@@ -24,7 +24,16 @@
 
     <!-- Certificats et Certifications (boucle qui récupère les images(créer un modèle)) -->
     <div class="certificate-container">
-        <img src="{% static 'portfolio/img/certificat1.png' %}" alt="Certificats et Certifications">
+        <img class="certificate-img" src="{% static 'portfolio/img/certification_ecri+.png' %}" alt="Certificats et Certifications">
+    </div>
+    <div class="certificate-container">
+        <img class="certificate-img" src="{% static 'portfolio/img/certificat1.png' %}" alt="Certificats et Certifications">
+    </div>
+
+    <!-- Modal pour l'overlay des certificats -->
+    <div id="certificateModal" class="certificate-modal">
+        <span class="certificate-close">&times;</span>
+        <img class="certificate-modal-content" id="modalImage" src="" alt="Certificat en grand">
     </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -37,6 +46,40 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <script>
+        // Certificate Modal Functions
+        const certificateModal = document.getElementById('certificateModal');
+        const modalImage = document.getElementById('modalImage');
+        const certificateClose = document.querySelector('.certificate-close');
+        const certificateImgs = document.querySelectorAll('.certificate-img');
+
+        certificateImgs.forEach(img => {
+            img.addEventListener('click', function() {
+                modalImage.src = this.src;
+                certificateModal.classList.add('show');
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        certificateClose.addEventListener('click', function() {
+            certificateModal.classList.remove('show');
+            document.body.style.overflow = 'auto';
+        });
+
+        certificateModal.addEventListener('click', function(event) {
+            if (event.target === certificateModal) {
+                certificateModal.classList.remove('show');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape' && certificateModal.classList.contains('show')) {
+                certificateModal.classList.remove('show');
+                document.body.style.overflow = 'auto';
+            }
+        });
+
         function updateButtonText(element) {
             var button = document.getElementById('dropdownMenuButton');
             button.textContent = element.textContent;

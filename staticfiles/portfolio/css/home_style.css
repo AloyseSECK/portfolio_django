@@ -427,24 +427,33 @@ button {
 
 
 .certificate-container {
+    margin: 2em auto;
+
+    /* Centrage vertical + horizontal */
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
 
-    /* Centrage vertical + horizontal possible si plein écran */
-    min-height: 100vh;
+    /* Taille responsive */
+    max-width: 800px;
+    width: 90%;
+    padding: 20px;
 
-    /* Taille max responsive */
-    max-width: 90vw;
+    /* Pour éviter qu’elle devienne trop grande */
     max-height: 90vh;
 
-    overflow: hidden; /* empêche tout débordement */
+    background: #f5f5f5;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+
+    overflow: hidden; /* Si l’image dépasse, on masque */
 }
 
 .certificate-container img {
     width: 100%;
     height: auto;
-    object-fit: contain; /* garantit que l’image reste entièrement visible */
+
+    /* S'adapte à la div tout en restant entièrement visible */
+    object-fit: contain;
+    max-height: 100%; /* Empêche l’image de pousser la div trop haut */
 }
-``

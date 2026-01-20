@@ -8,6 +8,7 @@ urlpatterns = [
     path('', views.home, name='home'),
     path('video/', views.video, name='video'),
     path('cv/', views.render_resume, name='render_resume'),
+    path('certificats/', views.certificats, name='certificats'),
     path('i18n/', include('django.conf.urls.i18n')),
 ]
 

@@ -424,3 +424,27 @@ button {
         height: auto;
     }
 }    
+
+
+.certificate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+    /* Centrage vertical + horizontal possible si plein écran */
+    min-height: 100vh;
+
+    /* Taille max responsive */
+    max-width: 90vw;
+    max-height: 90vh;
+
+    overflow: hidden; /* empêche tout débordement */
+}
+
+.certificate-container img {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* garantit que l’image reste entièrement visible */
+}
+``

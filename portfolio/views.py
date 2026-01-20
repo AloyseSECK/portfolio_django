@@ -40,6 +40,8 @@ def create_html_from_xslt():
     print(f"HTML file created at {output_html_file_path}")
     print("=============================================\n")
 
+def certificats(request):
+    return render(request, 'certificats.html')
 
 
 def render_resume(request):
